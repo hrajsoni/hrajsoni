@@ -441,9 +441,9 @@
   <rect class="grid-cell" x="776.4" y="83.4" width="10.5" height="10.5" rx="2.2" fill="#75121b" style="animation-delay: 0.714s;"><title>5 contributions on September 22nd.</title></rect>
   <rect class="grid-cell" x="776.4" y="97.1" width="10.5" height="10.5" rx="2.2" fill="#121316" style="animation-delay: 0.734s;"><title>No contributions on September 23rd.</title></rect>
   <rect class="grid-cell" x="776.4" y="110.8" width="10.5" height="10.5" rx="2.2" fill="#3d0c11" style="animation-delay: 0.754s;"><title>2 contributions on September 24th.</title></rect>
-  <rect class="grid-cell" x="776.4" y="124.5" width="10.5" height="10.5" rx="2.2" fill="#3d0c11" style="animation-delay: 0.774s;"><title>3 contributions on September 25th.</title></rect>
+  <rect class="grid-cell" x="776.4" y="124.5" width="10.5" height="10.5" rx="2.2" fill="#75121b" style="animation-delay: 0.774s;"><title>5 contributions on September 25th.</title></rect>
   <!-- Footer Stats & Legend -->
-  <text class="mono footer-stat" x="64" y="180"><tspan class="accent">2,714</tspan> commits logged in Gotham City &nbsp;·&nbsp; Current streak: <tspan class="accent">2d</tspan> &nbsp;·&nbsp; Longest streak: <tspan class="accent">324d</tspan></text>
+  <text class="mono footer-stat" x="64" y="180"><tspan class="accent">2,716</tspan> commits logged in Gotham City &#160;&#183;&#160; Current streak: <tspan class="accent">2d</tspan> &#160;&#183;&#160; Longest streak: <tspan class="accent">324d</tspan></text>
   <text class="mono label" x="662" y="180">Shadows</text>
   <rect x="700" y="173" width="9.5" height="9.5" rx="2" fill="#121316"/>
   <rect x="713" y="173" width="9.5" height="9.5" rx="2" fill="#3d0c11"/>
