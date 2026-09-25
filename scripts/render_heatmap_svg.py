@@ -1,15 +1,16 @@
 #!/usr/bin/env python3
 """
 render_heatmap_svg.py
-Reads data/contributions.json and renders a sleek, animated terminal-styled
-contribution heatmap SVG (contrib-heatmap.svg) sized at 860px wide.
+Reads data/contributions.json and renders a sleek Batcomputer-themed
+contribution heatmap SVG (contrib-heatmap.svg) in The Batman (2022)
+crimson red palette, sized at 860px wide.
 """
 
 import os
 import json
-from datetime import datetime
 
-PALETTE = ["#161b22", "#0e4429", "#006d32", "#26a641", "#39d353", "#69f0a0"]
+# The Batman (2022) Crimson Palette: Shadows -> Blood Red -> Neon Vengeance
+PALETTE = ["#121316", "#3d0c11", "#75121b", "#b91c1c", "#ef4444", "#ff1a2b"]
 
 WIDTH = 860
 HEIGHT = 205
@@ -63,29 +64,49 @@ def render_svg(data: dict) -> str:
       fill: #8b949e;
     }
     .accent {
-      fill: #39d353;
-      font-weight: 600;
+      fill: #ff1a2b;
+      font-weight: 700;
+    }
+    .border-glow {
+      stroke: #380a0e;
+      stroke-width: 1;
     }
   </style>""")
+
+    # Defs
+    svg_parts.append("""  <defs>
+    <radialGradient id="cardBg" cx="50%" cy="50%" r="65%">
+      <stop offset="0%" stop-color="#140204" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#08090a" stop-opacity="1"/>
+    </radialGradient>
+    <linearGradient id="headerLine" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ff1a2b" stop-opacity="0"/>
+      <stop offset="25%" stop-color="#ff1a2b" stop-opacity="0.7"/>
+      <stop offset="75%" stop-color="#ff1a2b" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#ff1a2b" stop-opacity="0"/>
+    </linearGradient>
+  </defs>""")
     
     # Background card
     svg_parts.append(
-        f'  <rect width="{WIDTH}" height="{HEIGHT}" rx="8" fill="#0d1117" stroke="#30363d" stroke-width="1"/>'
+        f'  <rect width="{WIDTH}" height="{HEIGHT}" rx="8" fill="url(#cardBg)"/>'
+    )
+    svg_parts.append(
+        f'  <rect width="{WIDTH}" height="{HEIGHT}" rx="8" fill="none" class="border-glow"/>'
     )
     
-    # Terminal header bar
+    # Batcomputer terminal header bar
     svg_parts.append("""  <!-- Window Header -->
-  <circle cx="20" cy="18" r="5" fill="#ff5f56"/>
-  <circle cx="36" cy="18" r="5" fill="#ffbd2e"/>
-  <circle cx="52" cy="18" r="5" fill="#27c93f"/>
-  <text class="mono title" x="430" y="22" text-anchor="middle">harshit@github: ~ (contributions)</text>
-  <line x1="0" y1="34" x2="860" y2="34" stroke="#21262d" stroke-width="1"/>""")
+  <circle cx="20" cy="18" r="4.5" fill="#ff1a2b"/>
+  <circle cx="34" cy="18" r="4.5" fill="#7f1d1d"/>
+  <circle cx="48" cy="18" r="4.5" fill="#262626"/>
+  <text class="mono title" x="430" y="22" text-anchor="middle">batcomputer@gotham: ~ $ ./surveillance_matrix.sh</text>
+  <line x1="0" y1="34" x2="860" y2="34" stroke="url(#headerLine)" stroke-width="1"/>""")
 
     # Month Labels
     svg_parts.append('  <!-- Month Labels -->')
     for m in month_labels:
         col = m.get("col", 0)
-        # Check if column is within visible 53 weeks
         if 0 <= col < len(weeks):
             mx = START_X + col * (BOX_SIZE + GAP)
             svg_parts.append(f'  <text class="mono label" x="{mx:.1f}" y="48">{m["name"]}</text>')
@@ -109,14 +130,14 @@ def render_svg(data: dict) -> str:
             level = day.get("level", 0)
             count = day.get("count", 0)
             
-            # Highlight max days with top palette color if count is very high
-            if count >= 15:
+            # Highest intensity on peak contribution days
+            if count >= 14:
                 color = PALETTE[5]
             else:
                 color = PALETTE[min(level, len(PALETTE) - 1)]
                 
             delay = 0.05 + (col_idx * 0.012) + (row_idx * 0.02)
-            desc = day.get("description", f"{count} contributions on {day.get('date', '')}")
+            desc = day.get("description", f"{count} commits in Gotham on {day.get('date', '')}")
             
             svg_parts.append(
                 f'  <rect class="grid-cell" x="{x:.1f}" y="{y:.1f}" width="{BOX_SIZE:.1f}" height="{BOX_SIZE:.1f}" '
@@ -128,22 +149,22 @@ def render_svg(data: dict) -> str:
     svg_parts.append('  <!-- Footer Stats & Legend -->')
     svg_parts.append(
         f'  <text class="mono footer-stat" x="{START_X}" y="180">'
-        f'<tspan class="accent">{total_contribs:,}</tspan> contributions in the last year &nbsp;·&nbsp; '
+        f'<tspan class="accent">{total_contribs:,}</tspan> commits logged in Gotham City &nbsp;·&nbsp; '
         f'Current streak: <tspan class="accent">{current_streak}d</tspan> &nbsp;·&nbsp; '
         f'Longest streak: <tspan class="accent">{longest_streak}d</tspan>'
         f'</text>'
     )
     
-    # Legend
-    legend_start_x = 716
+    # Legend: Shadows -> Vengeance
+    legend_start_x = 700
     legend_y = 173
-    svg_parts.append(f'  <text class="mono label" x="{legend_start_x - 26}" y="180">Less</text>')
+    svg_parts.append(f'  <text class="mono label" x="{legend_start_x - 38}" y="180">Shadows</text>')
     for i, col in enumerate(PALETTE[:5]):
         lx = legend_start_x + i * 13
         svg_parts.append(
             f'  <rect x="{lx}" y="{legend_y}" width="9.5" height="9.5" rx="2" fill="{col}"/>'
         )
-    svg_parts.append(f'  <text class="mono label" x="{legend_start_x + 68}" y="180">More</text>')
+    svg_parts.append(f'  <text class="mono label" x="{legend_start_x + 68}" y="180">Vengeance</text>')
     
     svg_parts.append('</svg>')
     return "\n".join(svg_parts)
@@ -165,7 +186,7 @@ def main():
     with open(out_path, "w", encoding="utf-8") as f:
         f.write(svg_content)
         
-    print(f"Successfully generated {out_path}!")
+    print(f"Successfully generated {out_path} in Batman Crimson theme!")
 
 
 if __name__ == "__main__":
