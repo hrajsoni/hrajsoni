@@ -424,9 +424,9 @@
   <rect class="grid-cell" x="776.4" y="83.4" width="10.5" height="10.5" rx="2.2" fill="#006d32" style="animation-delay: 0.714s;"><title>5 contributions on September 22nd.</title></rect>
   <rect class="grid-cell" x="776.4" y="97.1" width="10.5" height="10.5" rx="2.2" fill="#161b22" style="animation-delay: 0.734s;"><title>No contributions on September 23rd.</title></rect>
   <rect class="grid-cell" x="776.4" y="110.8" width="10.5" height="10.5" rx="2.2" fill="#0e4429" style="animation-delay: 0.754s;"><title>2 contributions on September 24th.</title></rect>
-  <rect class="grid-cell" x="776.4" y="124.5" width="10.5" height="10.5" rx="2.2" fill="#161b22" style="animation-delay: 0.774s;"><title>No contributions on September 25th.</title></rect>
+  <rect class="grid-cell" x="776.4" y="124.5" width="10.5" height="10.5" rx="2.2" fill="#0e4429" style="animation-delay: 0.774s;"><title>1 contribution on September 25th.</title></rect>
   <!-- Footer Stats & Legend -->
-  <text class="mono footer-stat" x="64" y="180"><tspan class="accent">2,711</tspan> contributions in the last year &nbsp;·&nbsp; Current streak: <tspan class="accent">1d</tspan> &nbsp;·&nbsp; Longest streak: <tspan class="accent">324d</tspan></text>
+  <text class="mono footer-stat" x="64" y="180"><tspan class="accent">2,712</tspan> contributions in the last year &nbsp;·&nbsp; Current streak: <tspan class="accent">2d</tspan> &nbsp;·&nbsp; Longest streak: <tspan class="accent">324d</tspan></text>
   <text class="mono label" x="690" y="180">Less</text>
   <rect x="716" y="173" width="9.5" height="9.5" rx="2" fill="#161b22"/>
   <rect x="729" y="173" width="9.5" height="9.5" rx="2" fill="#0e4429"/>
