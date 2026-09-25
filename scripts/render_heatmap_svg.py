@@ -149,8 +149,8 @@ def render_svg(data: dict) -> str:
     svg_parts.append('  <!-- Footer Stats & Legend -->')
     svg_parts.append(
         f'  <text class="mono footer-stat" x="{START_X}" y="180">'
-        f'<tspan class="accent">{total_contribs:,}</tspan> commits logged in Gotham City &nbsp;·&nbsp; '
-        f'Current streak: <tspan class="accent">{current_streak}d</tspan> &nbsp;·&nbsp; '
+        f'<tspan class="accent">{total_contribs:,}</tspan> commits logged in Gotham City &#160;&#183;&#160; '
+        f'Current streak: <tspan class="accent">{current_streak}d</tspan> &#160;&#183;&#160; '
         f'Longest streak: <tspan class="accent">{longest_streak}d</tspan>'
         f'</text>'
     )

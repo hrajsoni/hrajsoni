@@ -138,7 +138,7 @@ def generate_banner() -> str:
 
   <!-- Quote & Directive -->
   <text class="mono" x="430" y="152" text-anchor="middle" font-size="11.5" fill="#c9d1d9" letter-spacing="1.2">
-    &ldquo;It&apos;s not just a signal. It&apos;s a warning.&rdquo;
+    &quot;It&apos;s not just a signal. It&apos;s a warning.&quot;
   </text>""")
 
     # Bottom Metadata Strip

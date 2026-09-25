@@ -252,7 +252,7 @@ def generate_dossier(static: bool = False) -> str:
     ry += 114
     svg.append(f"""  <g class="{anim_cls}" style="animation-delay: 0.45s;">
     <text class="mono section-tag" x="{rx}" y="{ry}">// 04. ENCRYPTED COMMS FREQUENCY</text>
-    <text class="mono subtext" x="{rx}" y="{ry + 20}">DISPATCH: <tspan class="field-val">hraj491@gmail.com</tspan> &nbsp;·&nbsp; NETWORK: <tspan class="field-val">github.com/hrajsoni</tspan></text>
+    <text class="mono subtext" x="{rx}" y="{ry + 20}">DISPATCH: <tspan class="field-val">hraj491@gmail.com</tspan> &#160;&#183;&#160; NETWORK: <tspan class="field-val">github.com/hrajsoni</tspan></text>
   </g>""")
 
     svg.append("</svg>")

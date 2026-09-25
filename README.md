@@ -2,7 +2,7 @@
 
   <!-- THE BATMAN // HERO BANNER -->
   <a href="https://github.com/hrajsoni">
-    <img src="./batman-banner.svg" width="860" alt="Wayne Enterprises Batcomputer OS" />
+    <img src="https://raw.githubusercontent.com/hrajsoni/hrajsoni/main/batman-banner.svg" width="860" alt="Wayne Enterprises Batcomputer OS" />
   </a>
 
   <br><br>
@@ -10,30 +10,16 @@
   <!-- BATCOMPUTER SURVEILLANCE HEATMAP -->
   <h3><code>batcomputer@gotham: ~ $ ./surveillance_matrix.sh --active-year</code></h3>
   <a href="https://github.com/hrajsoni">
-    <img src="./contrib-heatmap.svg" width="860" alt="Batcomputer Surveillance Heatmap" />
+    <img src="https://raw.githubusercontent.com/hrajsoni/hrajsoni/main/contrib-heatmap.svg" width="860" alt="Batcomputer Surveillance Heatmap" />
   </a>
 
   <br><br>
 
   <!-- BATCOMPUTER CLASSIFIED DOSSIER -->
   <h3><code>batcomputer@gotham: ~ $ cat /etc/classified/harshit-raj.dossier</code></h3>
-  <img src="./batcomputer-dossier.svg" width="860" alt="Batcomputer Classified Tactical Dossier" />
+  <img src="https://raw.githubusercontent.com/hrajsoni/hrajsoni/main/batcomputer-dossier.svg" width="860" alt="Batcomputer Classified Tactical Dossier" />
 
   <br><br>
-
-  <!-- REAL-TIME GITHUB DIAGNOSTICS (CUSTOM BATMAN CRIMSON THEME) -->
-  <h3><code>batcomputer@gotham: ~ $ ./diagnostic_telemetry.sh</code></h3>
-  <p align="center">
-    <a href="https://github.com/hrajsoni">
-      <img src="https://github-readme-stats.vercel.app/api?username=hrajsoni&show_icons=true&title_color=ff1a2b&text_color=c9d1d9&icon_color=ff1a2b&bg_color=060709&border_color=380a0e&hide_border=false" width="418" alt="GitHub Stats" />
-    </a>
-    &nbsp;
-    <a href="https://github.com/hrajsoni">
-      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=hrajsoni&layout=compact&title_color=ff1a2b&text_color=c9d1d9&bg_color=060709&border_color=380a0e&hide_border=false" width="418" alt="Top Languages" />
-    </a>
-  </p>
-
-  <br>
 
   <!-- TACTICAL ARSENAL BADGES (THE BATMAN NOIR THEME) -->
   <h3><code>batcomputer@gotham: ~ $ ./weapons_arsenal --list-all</code></h3>
@@ -48,7 +34,7 @@
     &nbsp;
     <img src="https://img.shields.io/badge/Liquid-08090a?style=for-the-badge&logo=shopify&logoColor=ff1a2b" alt="Liquid" />
     <br><br>
-    <img src="https://img.shields.io/badge/Node.js-08090a?style=for-the-badge&logo=nodedotjs&logoColor=ff1a2b" alt="Node.js" />
+    <img src="https://img.shields.io/badge/Node.js-08090a?style=for-the-badge&logo=nodedotjs&logoColor=ff1a2b&borderColor=380a0e" alt="Node.js" />
     &nbsp;
     <img src="https://img.shields.io/badge/Python-08090a?style=for-the-badge&logo=python&logoColor=ff1a2b" alt="Python" />
     &nbsp;
