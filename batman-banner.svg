@@ -1,37 +1,33 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 230" width="860" height="230">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 250" width="860" height="250">
   <style>
     @keyframes pulseGlow {
-      0%, 100% { opacity: 0.35; filter: drop-shadow(0 0 15px rgba(255, 26, 43, 0.4)); }
-      50% { opacity: 0.75; filter: drop-shadow(0 0 35px rgba(255, 26, 43, 0.85)); }
+      0%, 100% { opacity: 0.55; filter: drop-shadow(0 0 12px rgba(255, 26, 43, 0.45)); }
+      50% { opacity: 0.95; filter: drop-shadow(0 0 32px rgba(255, 26, 43, 0.85)); }
     }
-    @keyframes scanline {
-      0% { transform: translateY(-100%); }
-      100% { transform: translateY(1000%); }
-    }
-    @keyframes glitchFade {
-      0% { opacity: 0; transform: translateY(-5px); }
-      100% { opacity: 1; transform: translateY(0); }
+    @keyframes textGlow {
+      0%, 100% { filter: drop-shadow(0 0 8px rgba(255, 26, 43, 0.7)); }
+      50% { filter: drop-shadow(0 0 18px rgba(255, 59, 75, 1)); }
     }
     .bat-emblem {
       animation: pulseGlow 4s ease-in-out infinite;
-      transform-origin: center;
+    }
+    .curved-name {
+      animation: textGlow 4s ease-in-out infinite;
+      font-family: 'Cinzel', 'Impact', 'Haettenschweiler', 'Arial Black', sans-serif;
+      font-weight: 900;
+      font-size: 34px;
+      letter-spacing: 7px;
     }
     .mono {
       font-family: 'SF Mono', 'Cascadia Code', 'Fira Code', Menlo, Consolas, monospace;
     }
-    .headline {
-      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
-      font-weight: 900;
-      letter-spacing: 5px;
-      text-transform: uppercase;
-    }
     .subhead {
       font-family: 'SF Mono', 'Cascadia Code', Consolas, monospace;
-      font-size: 11px;
+      font-size: 11.5px;
       letter-spacing: 3.5px;
       text-transform: uppercase;
-      fill: #ff1a2b;
-      font-weight: 600;
+      fill: #ff2e3e;
+      font-weight: 700;
     }
     .tag {
       font-size: 9.5px;
@@ -42,43 +38,57 @@
       fill: #ff3b4b;
       font-weight: 700;
     }
-    .border-glow {
-      stroke: #380a0e;
-      stroke-width: 1;
+    .quote {
+      font-family: 'SF Mono', 'Cascadia Code', Menlo, Consolas, monospace;
+      font-size: 11px;
+      fill: #d1d5db;
+      letter-spacing: 1px;
     }
   </style>
   <defs>
-    <!-- Background crimson atmospheric gradient -->
-    <radialGradient id="bgGlow" cx="50%" cy="50%" r="65%">
-      <stop offset="0%" stop-color="#2a0508" stop-opacity="0.9"/>
-      <stop offset="50%" stop-color="#140204" stop-opacity="0.95"/>
+    <!-- Background atmospheric gradient -->
+    <radialGradient id="bgGlow" cx="50%" cy="50%" r="68%">
+      <stop offset="0%" stop-color="#220306" stop-opacity="0.95"/>
+      <stop offset="55%" stop-color="#110204" stop-opacity="0.98"/>
       <stop offset="100%" stop-color="#060709" stop-opacity="1"/>
     </radialGradient>
 
-    <!-- Linear accent line gradient -->
+    <!-- Bat emblem fill gradient -->
+    <linearGradient id="batFill" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#2a0509" stop-opacity="0.85"/>
+      <stop offset="45%" stop-color="#170305" stop-opacity="0.92"/>
+      <stop offset="100%" stop-color="#0a0102" stop-opacity="0.96"/>
+    </linearGradient>
+
+    <!-- Text gradient for HARSHIT RAJ -->
+    <linearGradient id="nameGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="60%" stop-color="#fff5f5"/>
+      <stop offset="100%" stop-color="#ffb3ba"/>
+    </linearGradient>
+
+    <!-- Header & footer accent line gradient -->
     <linearGradient id="redLine" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#ff1a2b" stop-opacity="0"/>
-      <stop offset="30%" stop-color="#ff1a2b" stop-opacity="0.8"/>
-      <stop offset="70%" stop-color="#ff1a2b" stop-opacity="0.8"/>
+      <stop offset="25%" stop-color="#ff1a2b" stop-opacity="0.85"/>
+      <stop offset="75%" stop-color="#ff1a2b" stop-opacity="0.85"/>
       <stop offset="100%" stop-color="#ff1a2b" stop-opacity="0"/>
     </linearGradient>
 
-    <linearGradient id="batFill" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#ff2e3e" stop-opacity="0.25"/>
-      <stop offset="100%" stop-color="#7a0912" stop-opacity="0.08"/>
-    </linearGradient>
+    <!-- Guide path for curved text inside the bat -->
+    <path id="batTextCurve" d="M 180,128 Q 430,94 680,128" fill="none"/>
   </defs>
-  <rect width="860" height="230" rx="8" fill="url(#bgGlow)"/>
-  <rect width="860" height="230" rx="8" fill="none" class="border-glow"/>
+  <rect width="860" height="250" rx="8" fill="url(#bgGlow)"/>
+  <rect width="860" height="250" rx="8" fill="none" stroke="#380a0e" stroke-width="1"/>
   <!-- HUD Grid lines -->
-  <g opacity="0.12" stroke="#ff1a2b" stroke-width="0.5">
-    <line x1="40" y1="0" x2="40" y2="230"/>
-    <line x1="820" y1="0" x2="820" y2="230"/>
+  <g opacity="0.10" stroke="#ff1a2b" stroke-width="0.5">
+    <line x1="40" y1="0" x2="40" y2="250"/>
+    <line x1="820" y1="0" x2="820" y2="250"/>
     <line x1="0" y1="36" x2="860" y2="36"/>
-    <line x1="0" y1="194" x2="860" y2="194"/>
+    <line x1="0" y1="214" x2="860" y2="214"/>
   </g>
-  <!-- The Batman 2022 Insignia -->
-  <path class="bat-emblem" d="M 430,72 L 434,56 L 441,74 L 476,78 L 532,68 L 610,50 L 670,36 L 634,92 L 570,102 L 505,142 L 460,178 L 436,202 L 430,188 L 424,202 L 400,178 L 355,142 L 290,102 L 226,92 L 190,36 L 250,50 L 328,68 L 384,78 L 419,74 L 426,56 Z" fill="url(#batFill)" stroke="#ff1a2b" stroke-width="1.2"/>
+  <!-- The Batman Emblem (Container for Identity) -->
+  <path class="bat-emblem" d="M 430,60 C 426,60 423,50 421,44 C 419,50 416,58 412,60 C 345,68 265,56 165,46 C 115,42 75,40 60,40 C 76,85 102,110 125,122 C 155,108 200,105 235,116 C 265,132 295,154 335,174 C 375,194 410,216 430,230 C 450,216 485,194 525,174 C 565,154 595,132 625,116 C 660,105 705,108 735,122 C 758,110 784,85 800,40 C 785,40 745,42 695,46 C 595,56 515,68 448,60 C 444,58 441,50 439,44 C 437,50 434,60 430,60 Z" fill="url(#batFill)" stroke="#ff1a2b" stroke-width="1.4"/>
   <!-- Top Status Bar -->
   <circle cx="20" cy="18" r="4.5" fill="#ff1a2b"/>
   <circle cx="34" cy="18" r="4.5" fill="#7f1d1d"/>
@@ -86,22 +96,23 @@
   <text class="mono tag" x="65" y="22">WAYNE ENTERPRISES // BATCOMPUTER OS v4.2</text>
   <text class="mono tag" x="840" y="22" text-anchor="end">SYS.STATUS: <tspan class="tag-val">ACTIVE IN SHADOWS</tspan></text>
   <line x1="20" y1="36" x2="840" y2="36" stroke="url(#redLine)" stroke-width="1"/>
-  <!-- Central Identity -->
-  <text class="headline" x="430" y="98" text-anchor="middle" font-size="34" fill="#ffffff" filter="drop-shadow(0 0 12px rgba(255,26,43,0.5))">
-    HARSHIT RAJ
+  <!-- Curved Name INSIDE the Bat Emblem -->
+  <text class="curved-name" fill="url(#nameGrad)">
+    <textPath href="#batTextCurve" startOffset="50%" text-anchor="middle">
+      HARSHIT RAJ
+    </textPath>
   </text>
-  
-  <text class="subhead" x="430" y="124" text-anchor="middle">
+  <!-- Core Title & Directives -->
+  <text class="subhead" x="430" y="160" text-anchor="middle">
     FULL-STACK DEVELOPER // ECOMMERCE ARCHITECT
   </text>
 
-  <!-- Quote & Directive -->
-  <text class="mono" x="430" y="152" text-anchor="middle" font-size="11.5" fill="#c9d1d9" letter-spacing="1.2">
+  <text class="quote" x="430" y="184" text-anchor="middle">
     &quot;It&apos;s not just a signal. It&apos;s a warning.&quot;
   </text>
   <!-- Bottom HUD Metadata -->
-  <line x1="20" y1="194" x2="840" y2="194" stroke="url(#redLine)" stroke-width="1"/>
-  <text class="mono tag" x="35" y="212">SECTOR: <tspan class="tag-val">GOTHAM CITY // IN</tspan></text>
-  <text class="mono tag" x="430" y="212" text-anchor="middle">ARSENAL: <tspan fill="#d1d5db">TYPESCRIPT · NEXT.JS · LIQUID · PYTHON · NODE</tspan></text>
-  <text class="mono tag" x="825" y="212" text-anchor="end">PROTOCOL: <tspan class="tag-val">VENGEANCE</tspan></text>
+  <line x1="20" y1="214" x2="840" y2="214" stroke="url(#redLine)" stroke-width="1"/>
+  <text class="mono tag" x="35" y="232">SECTOR: <tspan class="tag-val">GOTHAM CITY // IN</tspan></text>
+  <text class="mono tag" x="430" y="232" text-anchor="middle">ARSENAL: <tspan fill="#d1d5db">TYPESCRIPT · NEXT.JS · LIQUID · PYTHON · NODE</tspan></text>
+  <text class="mono tag" x="825" y="232" text-anchor="end">PROTOCOL: <tspan class="tag-val">VENGEANCE</tspan></text>
 </svg>
