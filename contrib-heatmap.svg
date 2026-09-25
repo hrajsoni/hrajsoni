@@ -1,0 +1,437 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 205" width="860" height="205">
+  <style>
+    @keyframes cellFade {
+      0% { opacity: 0; transform: translateY(-4px) scale(0.7); }
+      100% { opacity: 1; transform: translateY(0) scale(1); }
+    }
+    .grid-cell {
+      animation: cellFade 0.3s cubic-bezier(0.16, 1, 0.3, 1) backwards;
+      transform-box: fill-box;
+      transform-origin: center;
+    }
+    .mono {
+      font-family: 'SF Mono', 'Cascadia Code', 'Fira Code', Menlo, Consolas, monospace;
+    }
+    .label {
+      font-size: 9px;
+      fill: #7d8590;
+    }
+    .title {
+      font-size: 11px;
+      fill: #8b949e;
+    }
+    .footer-stat {
+      font-size: 11px;
+      fill: #8b949e;
+    }
+    .accent {
+      fill: #39d353;
+      font-weight: 600;
+    }
+  </style>
+  <rect width="860" height="205" rx="8" fill="#0d1117" stroke="#30363d" stroke-width="1"/>
+  <!-- Window Header -->
+  <circle cx="20" cy="18" r="5" fill="#ff5f56"/>
+  <circle cx="36" cy="18" r="5" fill="#ffbd2e"/>
+  <circle cx="52" cy="18" r="5" fill="#27c93f"/>
+  <text class="mono title" x="430" y="22" text-anchor="middle">harshit@github: ~ (contributions)</text>
+  <line x1="0" y1="34" x2="860" y2="34" stroke="#21262d" stroke-width="1"/>
+  <!-- Month Labels -->
+  <text class="mono label" x="64.0" y="48">Sep</text>
+  <text class="mono label" x="91.4" y="48">Oct</text>
+  <text class="mono label" x="146.2" y="48">Nov</text>
+  <text class="mono label" x="214.7" y="48">Dec</text>
+  <text class="mono label" x="269.5" y="48">Jan</text>
+  <text class="mono label" x="324.3" y="48">Feb</text>
+  <text class="mono label" x="379.1" y="48">Mar</text>
+  <text class="mono label" x="447.6" y="48">Apr</text>
+  <text class="mono label" x="502.4" y="48">May</text>
+  <text class="mono label" x="570.9" y="48">Jun</text>
+  <text class="mono label" x="625.7" y="48">Jul</text>
+  <text class="mono label" x="680.5" y="48">Aug</text>
+  <text class="mono label" x="749.0" y="48">Sep</text>
+  <!-- Day Labels -->
+  <text class="mono label" x="36" y="78.2">Mon</text>
+  <text class="mono label" x="36" y="105.6">Wed</text>
+  <text class="mono label" x="36" y="133.0">Fri</text>
+  <!-- Heatmap Cells -->
+  <rect class="grid-cell" x="64.0" y="56.0" width="10.5" height="10.5" rx="2.2" fill="#006d32" style="animation-delay: 0.050s;"><title>5 contributions on September 21st.</title></rect>
+  <rect class="grid-cell" x="64.0" y="69.7" width="10.5" height="10.5" rx="2.2" fill="#006d32" style="animation-delay: 0.070s;"><title>5 contributions on September 22nd.</title></rect>
+  <rect class="grid-cell" x="64.0" y="83.4" width="10.5" height="10.5" rx="2.2" fill="#006d32" style="animation-delay: 0.090s;"><title>5 contributions on September 23rd.</title></rect>
+  <rect class="grid-cell" x="64.0" y="97.1" width="10.5" height="10.5" rx="2.2" fill="#006d32" style="animation-delay: 0.110s;"><title>5 contributions on September 24th.</title></rect>
+  <rect class="grid-cell" x="64.0" y="110.8" width="10.5" height="10.5" rx="2.2" fill="#006d32" style="animation-delay: 0.130s;"><title>5 contributions on September 25th.</title></rect>
+  <rect class="grid-cell" x="64.0" y="124.5" width="10.5" height="10.5" rx="2.2" fill="#006d32" style="animation-delay: 0.150s;"><title>5 contributions on September 26th.</title></rect>
+  <rect class="grid-cell" x="64.0" y="138.2" width="10.5" height="10.5" rx="2.2" fill="#006d32" style="animation-delay: 0.170s;"><title>5 contributions on September 27th.</title></rect>
+  <rect class="grid-cell" x="77.7" y="56.0" width="10.5" height="10.5" rx="2.2" fill="#006d32" style="animation-delay: 0.062s;"><title>5 contributions on September 28th.</title></rect>
+  <rect class="grid-cell" x="77.7" y="69.7" width="10.5" height="10.5" rx="2.2" fill="#006d32" style="animation-delay: 0.082s;"><title>5 contributions on September 29th.</title></rect>
+  <rect class="grid-cell" x="77.7" y="83.4" width="10.5" height="10.5" rx="2.2" fill="#006d32" style="animation-delay: 0.102s;"><title>5 contributions on September 30th.</title></rect>
+  <rect class="grid-cell" x="77.7" y="97.1" width="10.5" height="10.5" rx="2.2" fill="#006d32" style="animation-delay: 0.122s;"><title>5 contributions on October 1st.</title></rect>
+  <rect class="grid-cell" x="77.7" y="110.8" width="10.5" height="10.5" rx="2.2" fill="#006d32" style="animation-delay: 0.142s;"><title>5 contributions on October 2nd.</title></rect>
+  <rect class="grid-cell" x="77.7" y="124.5" width="10.5" height="10.5" rx="2.2" fill="#006d32" style="animation-delay: 0.162s;"><title>5 contributions on October 3rd.</title></rect>
+  <rect class="grid-cell" x="77.7" y="138.2" width="10.5" height="10.5" rx="2.2" fill="#006d32" style="animation-delay: 0.182s;"><title>5 contributions on October 4th.</title></rect>
+  <rect class="grid-cell" x="91.4" y="56.0" width="10.5" height="10.5" rx="2.2" fill="#006d32" style="animation-delay: 0.074s;"><title>5 contributions on October 5th.</title></rect>
+  <rect class="grid-cell" x="91.4" y="69.7" width="10.5" height="10.5" rx="2.2" fill="#006d32" style="animation-delay: 0.094s;"><title>5 contributions on October 6th.</title></rect>
+  <rect class="grid-cell" x="91.4" y="83.4" width="10.5" height="10.5" rx="2.2" fill="#006d32" style="animation-delay: 0.114s;"><title>5 contributions on October 7th.</title></rect>
+  <rect class="grid-cell" x="91.4" y="97.1" width="10.5" height="10.5" rx="2.2" fill="#006d32" style="animation-delay: 0.134s;"><title>5 contributions on October 8th.</title></rect>
+  <rect class="grid-cell" x="91.4" y="110.8" width="10.5" height="10.5" rx="2.2" fill="#006d32" style="animation-delay: 0.154s;"><title>5 contributions on October 9th.</title></rect>
+  <rect class="grid-cell" x="91.4" y="124.5" width="10.5" height="10.5" rx="2.2" fill="#006d32" style="animation-delay: 0.174s;"><title>5 contributions on October 10th.</title></rect>
+  <rect class="grid-cell" x="91.4" y="138.2" width="10.5" height="10.5" rx="2.2" fill="#006d32" style="animation-delay: 0.194s;"><title>5 contributions on October 11th.</title></rect>
+  <rect class="grid-cell" x="105.1" y="56.0" width="10.5" height="10.5" rx="2.2" fill="#006d32" style="animation-delay: 0.086s;"><title>5 contributions on October 12th.</title></rect>
+  <rect class="grid-cell" x="105.1" y="69.7" width="10.5" height="10.5" rx="2.2" fill="#006d32" style="animation-delay: 0.106s;"><title>5 contributions on October 13th.</title></rect>
+  <rect class="grid-cell" x="105.1" y="83.4" width="10.5" height="10.5" rx="2.2" fill="#006d32" style="animation-delay: 0.126s;"><title>5 contributions on October 14th.</title></rect>
+  <rect class="grid-cell" x="105.1" y="97.1" width="10.5" height="10.5" rx="2.2" fill="#006d32" style="animation-delay: 0.146s;"><title>5 contributions on October 15th.</title></rect>
+  <rect class="grid-cell" x="105.1" y="110.8" width="10.5" height="10.5" rx="2.2" fill="#006d32" style="animation-delay: 0.166s;"><title>5 contributions on October 16th.</title></rect>
+  <rect class="grid-cell" x="105.1" y="124.5" width="10.5" height="10.5" rx="2.2" fill="#006d32" style="animation-delay: 0.186s;"><title>5 contributions on October 17th.</title></rect>
+  <rect class="grid-cell" x="105.1" y="138.2" width="10.5" height="10.5" rx="2.2" fill="#006d32" style="animation-delay: 0.206s;"><title>5 contributions on October 18th.</title></rect>
+  <rect class="grid-cell" x="118.8" y="56.0" width="10.5" height="10.5" rx="2.2" fill="#006d32" style="animation-delay: 0.098s;"><title>5 contributions on October 19th.</title></rect>
+  <rect class="grid-cell" x="118.8" y="69.7" width="10.5" height="10.5" rx="2.2" fill="#006d32" style="animation-delay: 0.118s;"><title>5 contributions on October 20th.</title></rect>
+  <rect class="grid-cell" x="118.8" y="83.4" width="10.5" height="10.5" rx="2.2" fill="#006d32" style="animation-delay: 0.138s;"><title>5 contributions on October 21st.</title></rect>
+  <rect class="grid-cell" x="118.8" y="97.1" width="10.5" height="10.5" rx="2.2" fill="#006d32" style="animation-delay: 0.158s;"><title>5 contributions on October 22nd.</title></rect>
+  <rect class="grid-cell" x="118.8" y="110.8" width="10.5" height="10.5" rx="2.2" fill="#006d32" style="animation-delay: 0.178s;"><title>5 contributions on October 23rd.</title></rect>
+  <rect class="grid-cell" x="118.8" y="124.5" width="10.5" height="10.5" rx="2.2" fill="#006d32" style="animation-delay: 0.198s;"><title>5 contributions on October 24th.</title></rect>
+  <rect class="grid-cell" x="118.8" y="138.2" width="10.5" height="10.5" rx="2.2" fill="#006d32" style="animation-delay: 0.218s;"><title>5 contributions on October 25th.</title></rect>
+  <rect class="grid-cell" x="132.5" y="56.0" width="10.5" height="10.5" rx="2.2" fill="#006d32" style="animation-delay: 0.110s;"><title>5 contributions on October 26th.</title></rect>
+  <rect class="grid-cell" x="132.5" y="69.7" width="10.5" height="10.5" rx="2.2" fill="#006d32" style="animation-delay: 0.130s;"><title>5 contributions on October 27th.</title></rect>
+  <rect class="grid-cell" x="132.5" y="83.4" width="10.5" height="10.5" rx="2.2" fill="#006d32" style="animation-delay: 0.150s;"><title>5 contributions on October 28th.</title></rect>
+  <rect class="grid-cell" x="132.5" y="97.1" width="10.5" height="10.5" rx="2.2" fill="#006d32" style="animation-delay: 0.170s;"><title>5 contributions on October 29th.</title></rect>
+  <rect class="grid-cell" x="132.5" y="110.8" width="10.5" height="10.5" rx="2.2" fill="#006d32" style="animation-delay: 0.190s;"><title>5 contributions on October 30th.</title></rect>
+  <rect class="grid-cell" x="132.5" y="124.5" width="10.5" height="10.5" rx="2.2" fill="#006d32" style="animation-delay: 0.210s;"><title>5 contributions on October 31st.</title></rect>
+  <rect class="grid-cell" x="132.5" y="138.2" width="10.5" height="10.5" rx="2.2" fill="#006d32" style="animation-delay: 0.230s;"><title>5 contributions on November 1st.</title></rect>
+  <rect class="grid-cell" x="146.2" y="56.0" width="10.5" height="10.5" rx="2.2" fill="#006d32" style="animation-delay: 0.122s;"><title>5 contributions on November 2nd.</title></rect>
+  <rect class="grid-cell" x="146.2" y="69.7" width="10.5" height="10.5" rx="2.2" fill="#006d32" style="animation-delay: 0.142s;"><title>5 contributions on November 3rd.</title></rect>
+  <rect class="grid-cell" x="146.2" y="83.4" width="10.5" height="10.5" rx="2.2" fill="#006d32" style="animation-delay: 0.162s;"><title>5 contributions on November 4th.</title></rect>
+  <rect class="grid-cell" x="146.2" y="97.1" width="10.5" height="10.5" rx="2.2" fill="#006d32" style="animation-delay: 0.182s;"><title>5 contributions on November 5th.</title></rect>
+  <rect class="grid-cell" x="146.2" y="110.8" width="10.5" height="10.5" rx="2.2" fill="#006d32" style="animation-delay: 0.202s;"><title>5 contributions on November 6th.</title></rect>
+  <rect class="grid-cell" x="146.2" y="124.5" width="10.5" height="10.5" rx="2.2" fill="#006d32" style="animation-delay: 0.222s;"><title>5 contributions on November 7th.</title></rect>
+  <rect class="grid-cell" x="146.2" y="138.2" width="10.5" height="10.5" rx="2.2" fill="#006d32" style="animation-delay: 0.242s;"><title>5 contributions on November 8th.</title></rect>
+  <rect class="grid-cell" x="159.9" y="56.0" width="10.5" height="10.5" rx="2.2" fill="#006d32" style="animation-delay: 0.134s;"><title>5 contributions on November 9th.</title></rect>
+  <rect class="grid-cell" x="159.9" y="69.7" width="10.5" height="10.5" rx="2.2" fill="#006d32" style="animation-delay: 0.154s;"><title>5 contributions on November 10th.</title></rect>
+  <rect class="grid-cell" x="159.9" y="83.4" width="10.5" height="10.5" rx="2.2" fill="#006d32" style="animation-delay: 0.174s;"><title>5 contributions on November 11th.</title></rect>
+  <rect class="grid-cell" x="159.9" y="97.1" width="10.5" height="10.5" rx="2.2" fill="#006d32" style="animation-delay: 0.194s;"><title>5 contributions on November 12th.</title></rect>
+  <rect class="grid-cell" x="159.9" y="110.8" width="10.5" height="10.5" rx="2.2" fill="#006d32" style="animation-delay: 0.214s;"><title>5 contributions on November 13th.</title></rect>
+  <rect class="grid-cell" x="159.9" y="124.5" width="10.5" height="10.5" rx="2.2" fill="#006d32" style="animation-delay: 0.234s;"><title>5 contributions on November 14th.</title></rect>
+  <rect class="grid-cell" x="159.9" y="138.2" width="10.5" height="10.5" rx="2.2" fill="#006d32" style="animation-delay: 0.254s;"><title>5 contributions on November 15th.</title></rect>
+  <rect class="grid-cell" x="173.6" y="56.0" width="10.5" height="10.5" rx="2.2" fill="#006d32" style="animation-delay: 0.146s;"><title>5 contributions on November 16th.</title></rect>
+  <rect class="grid-cell" x="173.6" y="69.7" width="10.5" height="10.5" rx="2.2" fill="#006d32" style="animation-delay: 0.166s;"><title>5 contributions on November 17th.</title></rect>
+  <rect class="grid-cell" x="173.6" y="83.4" width="10.5" height="10.5" rx="2.2" fill="#006d32" style="animation-delay: 0.186s;"><title>5 contributions on November 18th.</title></rect>
+  <rect class="grid-cell" x="173.6" y="97.1" width="10.5" height="10.5" rx="2.2" fill="#006d32" style="animation-delay: 0.206s;"><title>5 contributions on November 19th.</title></rect>
+  <rect class="grid-cell" x="173.6" y="110.8" width="10.5" height="10.5" rx="2.2" fill="#006d32" style="animation-delay: 0.226s;"><title>5 contributions on November 20th.</title></rect>
+  <rect class="grid-cell" x="173.6" y="124.5" width="10.5" height="10.5" rx="2.2" fill="#006d32" style="animation-delay: 0.246s;"><title>5 contributions on November 21st.</title></rect>
+  <rect class="grid-cell" x="173.6" y="138.2" width="10.5" height="10.5" rx="2.2" fill="#006d32" style="animation-delay: 0.266s;"><title>5 contributions on November 22nd.</title></rect>
+  <rect class="grid-cell" x="187.3" y="56.0" width="10.5" height="10.5" rx="2.2" fill="#006d32" style="animation-delay: 0.158s;"><title>5 contributions on November 23rd.</title></rect>
+  <rect class="grid-cell" x="187.3" y="69.7" width="10.5" height="10.5" rx="2.2" fill="#006d32" style="animation-delay: 0.178s;"><title>5 contributions on November 24th.</title></rect>
+  <rect class="grid-cell" x="187.3" y="83.4" width="10.5" height="10.5" rx="2.2" fill="#006d32" style="animation-delay: 0.198s;"><title>5 contributions on November 25th.</title></rect>
+  <rect class="grid-cell" x="187.3" y="97.1" width="10.5" height="10.5" rx="2.2" fill="#006d32" style="animation-delay: 0.218s;"><title>5 contributions on November 26th.</title></rect>
+  <rect class="grid-cell" x="187.3" y="110.8" width="10.5" height="10.5" rx="2.2" fill="#006d32" style="animation-delay: 0.238s;"><title>5 contributions on November 27th.</title></rect>
+  <rect class="grid-cell" x="187.3" y="124.5" width="10.5" height="10.5" rx="2.2" fill="#006d32" style="animation-delay: 0.258s;"><title>5 contributions on November 28th.</title></rect>
+  <rect class="grid-cell" x="187.3" y="138.2" width="10.5" height="10.5" rx="2.2" fill="#006d32" style="animation-delay: 0.278s;"><title>5 contributions on November 29th.</title></rect>
+  <rect class="grid-cell" x="201.0" y="56.0" width="10.5" height="10.5" rx="2.2" fill="#006d32" style="animation-delay: 0.170s;"><title>5 contributions on November 30th.</title></rect>
+  <rect class="grid-cell" x="201.0" y="69.7" width="10.5" height="10.5" rx="2.2" fill="#006d32" style="animation-delay: 0.190s;"><title>5 contributions on December 1st.</title></rect>
+  <rect class="grid-cell" x="201.0" y="83.4" width="10.5" height="10.5" rx="2.2" fill="#006d32" style="animation-delay: 0.210s;"><title>5 contributions on December 2nd.</title></rect>
+  <rect class="grid-cell" x="201.0" y="97.1" width="10.5" height="10.5" rx="2.2" fill="#006d32" style="animation-delay: 0.230s;"><title>5 contributions on December 3rd.</title></rect>
+  <rect class="grid-cell" x="201.0" y="110.8" width="10.5" height="10.5" rx="2.2" fill="#006d32" style="animation-delay: 0.250s;"><title>5 contributions on December 4th.</title></rect>
+  <rect class="grid-cell" x="201.0" y="124.5" width="10.5" height="10.5" rx="2.2" fill="#006d32" style="animation-delay: 0.270s;"><title>5 contributions on December 5th.</title></rect>
+  <rect class="grid-cell" x="201.0" y="138.2" width="10.5" height="10.5" rx="2.2" fill="#006d32" style="animation-delay: 0.290s;"><title>5 contributions on December 6th.</title></rect>
+  <rect class="grid-cell" x="214.7" y="56.0" width="10.5" height="10.5" rx="2.2" fill="#006d32" style="animation-delay: 0.182s;"><title>5 contributions on December 7th.</title></rect>
+  <rect class="grid-cell" x="214.7" y="69.7" width="10.5" height="10.5" rx="2.2" fill="#006d32" style="animation-delay: 0.202s;"><title>5 contributions on December 8th.</title></rect>
+  <rect class="grid-cell" x="214.7" y="83.4" width="10.5" height="10.5" rx="2.2" fill="#006d32" style="animation-delay: 0.222s;"><title>5 contributions on December 9th.</title></rect>
+  <rect class="grid-cell" x="214.7" y="97.1" width="10.5" height="10.5" rx="2.2" fill="#006d32" style="animation-delay: 0.242s;"><title>5 contributions on December 10th.</title></rect>
+  <rect class="grid-cell" x="214.7" y="110.8" width="10.5" height="10.5" rx="2.2" fill="#006d32" style="animation-delay: 0.262s;"><title>5 contributions on December 11th.</title></rect>
+  <rect class="grid-cell" x="214.7" y="124.5" width="10.5" height="10.5" rx="2.2" fill="#006d32" style="animation-delay: 0.282s;"><title>5 contributions on December 12th.</title></rect>
+  <rect class="grid-cell" x="214.7" y="138.2" width="10.5" height="10.5" rx="2.2" fill="#006d32" style="animation-delay: 0.302s;"><title>5 contributions on December 13th.</title></rect>
+  <rect class="grid-cell" x="228.4" y="56.0" width="10.5" height="10.5" rx="2.2" fill="#006d32" style="animation-delay: 0.194s;"><title>5 contributions on December 14th.</title></rect>
+  <rect class="grid-cell" x="228.4" y="69.7" width="10.5" height="10.5" rx="2.2" fill="#006d32" style="animation-delay: 0.214s;"><title>5 contributions on December 15th.</title></rect>
+  <rect class="grid-cell" x="228.4" y="83.4" width="10.5" height="10.5" rx="2.2" fill="#006d32" style="animation-delay: 0.234s;"><title>5 contributions on December 16th.</title></rect>
+  <rect class="grid-cell" x="228.4" y="97.1" width="10.5" height="10.5" rx="2.2" fill="#006d32" style="animation-delay: 0.254s;"><title>5 contributions on December 17th.</title></rect>
+  <rect class="grid-cell" x="228.4" y="110.8" width="10.5" height="10.5" rx="2.2" fill="#006d32" style="animation-delay: 0.274s;"><title>5 contributions on December 18th.</title></rect>
+  <rect class="grid-cell" x="228.4" y="124.5" width="10.5" height="10.5" rx="2.2" fill="#006d32" style="animation-delay: 0.294s;"><title>5 contributions on December 19th.</title></rect>
+  <rect class="grid-cell" x="228.4" y="138.2" width="10.5" height="10.5" rx="2.2" fill="#006d32" style="animation-delay: 0.314s;"><title>5 contributions on December 20th.</title></rect>
+  <rect class="grid-cell" x="242.1" y="56.0" width="10.5" height="10.5" rx="2.2" fill="#006d32" style="animation-delay: 0.206s;"><title>5 contributions on December 21st.</title></rect>
+  <rect class="grid-cell" x="242.1" y="69.7" width="10.5" height="10.5" rx="2.2" fill="#006d32" style="animation-delay: 0.226s;"><title>5 contributions on December 22nd.</title></rect>
+  <rect class="grid-cell" x="242.1" y="83.4" width="10.5" height="10.5" rx="2.2" fill="#006d32" style="animation-delay: 0.246s;"><title>5 contributions on December 23rd.</title></rect>
+  <rect class="grid-cell" x="242.1" y="97.1" width="10.5" height="10.5" rx="2.2" fill="#006d32" style="animation-delay: 0.266s;"><title>5 contributions on December 24th.</title></rect>
+  <rect class="grid-cell" x="242.1" y="110.8" width="10.5" height="10.5" rx="2.2" fill="#006d32" style="animation-delay: 0.286s;"><title>5 contributions on December 25th.</title></rect>
+  <rect class="grid-cell" x="242.1" y="124.5" width="10.5" height="10.5" rx="2.2" fill="#006d32" style="animation-delay: 0.306s;"><title>5 contributions on December 26th.</title></rect>
+  <rect class="grid-cell" x="242.1" y="138.2" width="10.5" height="10.5" rx="2.2" fill="#006d32" style="animation-delay: 0.326s;"><title>5 contributions on December 27th.</title></rect>
+  <rect class="grid-cell" x="255.8" y="56.0" width="10.5" height="10.5" rx="2.2" fill="#006d32" style="animation-delay: 0.218s;"><title>5 contributions on December 28th.</title></rect>
+  <rect class="grid-cell" x="255.8" y="69.7" width="10.5" height="10.5" rx="2.2" fill="#006d32" style="animation-delay: 0.238s;"><title>5 contributions on December 29th.</title></rect>
+  <rect class="grid-cell" x="255.8" y="83.4" width="10.5" height="10.5" rx="2.2" fill="#006d32" style="animation-delay: 0.258s;"><title>5 contributions on December 30th.</title></rect>
+  <rect class="grid-cell" x="255.8" y="97.1" width="10.5" height="10.5" rx="2.2" fill="#006d32" style="animation-delay: 0.278s;"><title>5 contributions on December 31st.</title></rect>
+  <rect class="grid-cell" x="255.8" y="110.8" width="10.5" height="10.5" rx="2.2" fill="#006d32" style="animation-delay: 0.298s;"><title>5 contributions on January 1st.</title></rect>
+  <rect class="grid-cell" x="255.8" y="124.5" width="10.5" height="10.5" rx="2.2" fill="#006d32" style="animation-delay: 0.318s;"><title>5 contributions on January 2nd.</title></rect>
+  <rect class="grid-cell" x="255.8" y="138.2" width="10.5" height="10.5" rx="2.2" fill="#006d32" style="animation-delay: 0.338s;"><title>5 contributions on January 3rd.</title></rect>
+  <rect class="grid-cell" x="269.5" y="56.0" width="10.5" height="10.5" rx="2.2" fill="#006d32" style="animation-delay: 0.230s;"><title>5 contributions on January 4th.</title></rect>
+  <rect class="grid-cell" x="269.5" y="69.7" width="10.5" height="10.5" rx="2.2" fill="#006d32" style="animation-delay: 0.250s;"><title>5 contributions on January 5th.</title></rect>
+  <rect class="grid-cell" x="269.5" y="83.4" width="10.5" height="10.5" rx="2.2" fill="#006d32" style="animation-delay: 0.270s;"><title>5 contributions on January 6th.</title></rect>
+  <rect class="grid-cell" x="269.5" y="97.1" width="10.5" height="10.5" rx="2.2" fill="#006d32" style="animation-delay: 0.290s;"><title>5 contributions on January 7th.</title></rect>
+  <rect class="grid-cell" x="269.5" y="110.8" width="10.5" height="10.5" rx="2.2" fill="#006d32" style="animation-delay: 0.310s;"><title>5 contributions on January 8th.</title></rect>
+  <rect class="grid-cell" x="269.5" y="124.5" width="10.5" height="10.5" rx="2.2" fill="#006d32" style="animation-delay: 0.330s;"><title>5 contributions on January 9th.</title></rect>
+  <rect class="grid-cell" x="269.5" y="138.2" width="10.5" height="10.5" rx="2.2" fill="#26a641" style="animation-delay: 0.350s;"><title>11 contributions on January 10th.</title></rect>
+  <rect class="grid-cell" x="283.2" y="56.0" width="10.5" height="10.5" rx="2.2" fill="#006d32" style="animation-delay: 0.242s;"><title>5 contributions on January 11th.</title></rect>
+  <rect class="grid-cell" x="283.2" y="69.7" width="10.5" height="10.5" rx="2.2" fill="#006d32" style="animation-delay: 0.262s;"><title>5 contributions on January 12th.</title></rect>
+  <rect class="grid-cell" x="283.2" y="83.4" width="10.5" height="10.5" rx="2.2" fill="#006d32" style="animation-delay: 0.282s;"><title>5 contributions on January 13th.</title></rect>
+  <rect class="grid-cell" x="283.2" y="97.1" width="10.5" height="10.5" rx="2.2" fill="#006d32" style="animation-delay: 0.302s;"><title>5 contributions on January 14th.</title></rect>
+  <rect class="grid-cell" x="283.2" y="110.8" width="10.5" height="10.5" rx="2.2" fill="#006d32" style="animation-delay: 0.322s;"><title>5 contributions on January 15th.</title></rect>
+  <rect class="grid-cell" x="283.2" y="124.5" width="10.5" height="10.5" rx="2.2" fill="#006d32" style="animation-delay: 0.342s;"><title>5 contributions on January 16th.</title></rect>
+  <rect class="grid-cell" x="283.2" y="138.2" width="10.5" height="10.5" rx="2.2" fill="#006d32" style="animation-delay: 0.362s;"><title>5 contributions on January 17th.</title></rect>
+  <rect class="grid-cell" x="296.9" y="56.0" width="10.5" height="10.5" rx="2.2" fill="#006d32" style="animation-delay: 0.254s;"><title>5 contributions on January 18th.</title></rect>
+  <rect class="grid-cell" x="296.9" y="69.7" width="10.5" height="10.5" rx="2.2" fill="#006d32" style="animation-delay: 0.274s;"><title>5 contributions on January 19th.</title></rect>
+  <rect class="grid-cell" x="296.9" y="83.4" width="10.5" height="10.5" rx="2.2" fill="#26a641" style="animation-delay: 0.294s;"><title>10 contributions on January 20th.</title></rect>
+  <rect class="grid-cell" x="296.9" y="97.1" width="10.5" height="10.5" rx="2.2" fill="#26a641" style="animation-delay: 0.314s;"><title>10 contributions on January 21st.</title></rect>
+  <rect class="grid-cell" x="296.9" y="110.8" width="10.5" height="10.5" rx="2.2" fill="#26a641" style="animation-delay: 0.334s;"><title>10 contributions on January 22nd.</title></rect>
+  <rect class="grid-cell" x="296.9" y="124.5" width="10.5" height="10.5" rx="2.2" fill="#26a641" style="animation-delay: 0.354s;"><title>10 contributions on January 23rd.</title></rect>
+  <rect class="grid-cell" x="296.9" y="138.2" width="10.5" height="10.5" rx="2.2" fill="#26a641" style="animation-delay: 0.374s;"><title>10 contributions on January 24th.</title></rect>
+  <rect class="grid-cell" x="310.6" y="56.0" width="10.5" height="10.5" rx="2.2" fill="#26a641" style="animation-delay: 0.266s;"><title>10 contributions on January 25th.</title></rect>
+  <rect class="grid-cell" x="310.6" y="69.7" width="10.5" height="10.5" rx="2.2" fill="#26a641" style="animation-delay: 0.286s;"><title>10 contributions on January 26th.</title></rect>
+  <rect class="grid-cell" x="310.6" y="83.4" width="10.5" height="10.5" rx="2.2" fill="#26a641" style="animation-delay: 0.306s;"><title>10 contributions on January 27th.</title></rect>
+  <rect class="grid-cell" x="310.6" y="97.1" width="10.5" height="10.5" rx="2.2" fill="#26a641" style="animation-delay: 0.326s;"><title>10 contributions on January 28th.</title></rect>
+  <rect class="grid-cell" x="310.6" y="110.8" width="10.5" height="10.5" rx="2.2" fill="#26a641" style="animation-delay: 0.346s;"><title>10 contributions on January 29th.</title></rect>
+  <rect class="grid-cell" x="310.6" y="124.5" width="10.5" height="10.5" rx="2.2" fill="#26a641" style="animation-delay: 0.366s;"><title>10 contributions on January 30th.</title></rect>
+  <rect class="grid-cell" x="310.6" y="138.2" width="10.5" height="10.5" rx="2.2" fill="#26a641" style="animation-delay: 0.386s;"><title>10 contributions on January 31st.</title></rect>
+  <rect class="grid-cell" x="324.3" y="56.0" width="10.5" height="10.5" rx="2.2" fill="#26a641" style="animation-delay: 0.278s;"><title>10 contributions on February 1st.</title></rect>
+  <rect class="grid-cell" x="324.3" y="69.7" width="10.5" height="10.5" rx="2.2" fill="#26a641" style="animation-delay: 0.298s;"><title>10 contributions on February 2nd.</title></rect>
+  <rect class="grid-cell" x="324.3" y="83.4" width="10.5" height="10.5" rx="2.2" fill="#26a641" style="animation-delay: 0.318s;"><title>10 contributions on February 3rd.</title></rect>
+  <rect class="grid-cell" x="324.3" y="97.1" width="10.5" height="10.5" rx="2.2" fill="#26a641" style="animation-delay: 0.338s;"><title>10 contributions on February 4th.</title></rect>
+  <rect class="grid-cell" x="324.3" y="110.8" width="10.5" height="10.5" rx="2.2" fill="#26a641" style="animation-delay: 0.358s;"><title>10 contributions on February 5th.</title></rect>
+  <rect class="grid-cell" x="324.3" y="124.5" width="10.5" height="10.5" rx="2.2" fill="#26a641" style="animation-delay: 0.378s;"><title>10 contributions on February 6th.</title></rect>
+  <rect class="grid-cell" x="324.3" y="138.2" width="10.5" height="10.5" rx="2.2" fill="#26a641" style="animation-delay: 0.398s;"><title>10 contributions on February 7th.</title></rect>
+  <rect class="grid-cell" x="338.0" y="56.0" width="10.5" height="10.5" rx="2.2" fill="#26a641" style="animation-delay: 0.290s;"><title>10 contributions on February 8th.</title></rect>
+  <rect class="grid-cell" x="338.0" y="69.7" width="10.5" height="10.5" rx="2.2" fill="#26a641" style="animation-delay: 0.310s;"><title>10 contributions on February 9th.</title></rect>
+  <rect class="grid-cell" x="338.0" y="83.4" width="10.5" height="10.5" rx="2.2" fill="#26a641" style="animation-delay: 0.330s;"><title>10 contributions on February 10th.</title></rect>
+  <rect class="grid-cell" x="338.0" y="97.1" width="10.5" height="10.5" rx="2.2" fill="#26a641" style="animation-delay: 0.350s;"><title>10 contributions on February 11th.</title></rect>
+  <rect class="grid-cell" x="338.0" y="110.8" width="10.5" height="10.5" rx="2.2" fill="#26a641" style="animation-delay: 0.370s;"><title>10 contributions on February 12th.</title></rect>
+  <rect class="grid-cell" x="338.0" y="124.5" width="10.5" height="10.5" rx="2.2" fill="#26a641" style="animation-delay: 0.390s;"><title>10 contributions on February 13th.</title></rect>
+  <rect class="grid-cell" x="338.0" y="138.2" width="10.5" height="10.5" rx="2.2" fill="#26a641" style="animation-delay: 0.410s;"><title>10 contributions on February 14th.</title></rect>
+  <rect class="grid-cell" x="351.7" y="56.0" width="10.5" height="10.5" rx="2.2" fill="#26a641" style="animation-delay: 0.302s;"><title>10 contributions on February 15th.</title></rect>
+  <rect class="grid-cell" x="351.7" y="69.7" width="10.5" height="10.5" rx="2.2" fill="#26a641" style="animation-delay: 0.322s;"><title>12 contributions on February 16th.</title></rect>
+  <rect class="grid-cell" x="351.7" y="83.4" width="10.5" height="10.5" rx="2.2" fill="#26a641" style="animation-delay: 0.342s;"><title>10 contributions on February 17th.</title></rect>
+  <rect class="grid-cell" x="351.7" y="97.1" width="10.5" height="10.5" rx="2.2" fill="#26a641" style="animation-delay: 0.362s;"><title>10 contributions on February 18th.</title></rect>
+  <rect class="grid-cell" x="351.7" y="110.8" width="10.5" height="10.5" rx="2.2" fill="#26a641" style="animation-delay: 0.382s;"><title>10 contributions on February 19th.</title></rect>
+  <rect class="grid-cell" x="351.7" y="124.5" width="10.5" height="10.5" rx="2.2" fill="#26a641" style="animation-delay: 0.402s;"><title>10 contributions on February 20th.</title></rect>
+  <rect class="grid-cell" x="351.7" y="138.2" width="10.5" height="10.5" rx="2.2" fill="#26a641" style="animation-delay: 0.422s;"><title>10 contributions on February 21st.</title></rect>
+  <rect class="grid-cell" x="365.4" y="56.0" width="10.5" height="10.5" rx="2.2" fill="#26a641" style="animation-delay: 0.314s;"><title>10 contributions on February 22nd.</title></rect>
+  <rect class="grid-cell" x="365.4" y="69.7" width="10.5" height="10.5" rx="2.2" fill="#26a641" style="animation-delay: 0.334s;"><title>10 contributions on February 23rd.</title></rect>
+  <rect class="grid-cell" x="365.4" y="83.4" width="10.5" height="10.5" rx="2.2" fill="#26a641" style="animation-delay: 0.354s;"><title>10 contributions on February 24th.</title></rect>
+  <rect class="grid-cell" x="365.4" y="97.1" width="10.5" height="10.5" rx="2.2" fill="#26a641" style="animation-delay: 0.374s;"><title>10 contributions on February 25th.</title></rect>
+  <rect class="grid-cell" x="365.4" y="110.8" width="10.5" height="10.5" rx="2.2" fill="#26a641" style="animation-delay: 0.394s;"><title>10 contributions on February 26th.</title></rect>
+  <rect class="grid-cell" x="365.4" y="124.5" width="10.5" height="10.5" rx="2.2" fill="#26a641" style="animation-delay: 0.414s;"><title>10 contributions on February 27th.</title></rect>
+  <rect class="grid-cell" x="365.4" y="138.2" width="10.5" height="10.5" rx="2.2" fill="#26a641" style="animation-delay: 0.434s;"><title>10 contributions on February 28th.</title></rect>
+  <rect class="grid-cell" x="379.1" y="56.0" width="10.5" height="10.5" rx="2.2" fill="#26a641" style="animation-delay: 0.326s;"><title>10 contributions on March 1st.</title></rect>
+  <rect class="grid-cell" x="379.1" y="69.7" width="10.5" height="10.5" rx="2.2" fill="#26a641" style="animation-delay: 0.346s;"><title>10 contributions on March 2nd.</title></rect>
+  <rect class="grid-cell" x="379.1" y="83.4" width="10.5" height="10.5" rx="2.2" fill="#26a641" style="animation-delay: 0.366s;"><title>10 contributions on March 3rd.</title></rect>
+  <rect class="grid-cell" x="379.1" y="97.1" width="10.5" height="10.5" rx="2.2" fill="#26a641" style="animation-delay: 0.386s;"><title>10 contributions on March 4th.</title></rect>
+  <rect class="grid-cell" x="379.1" y="110.8" width="10.5" height="10.5" rx="2.2" fill="#26a641" style="animation-delay: 0.406s;"><title>10 contributions on March 5th.</title></rect>
+  <rect class="grid-cell" x="379.1" y="124.5" width="10.5" height="10.5" rx="2.2" fill="#26a641" style="animation-delay: 0.426s;"><title>10 contributions on March 6th.</title></rect>
+  <rect class="grid-cell" x="379.1" y="138.2" width="10.5" height="10.5" rx="2.2" fill="#26a641" style="animation-delay: 0.446s;"><title>10 contributions on March 7th.</title></rect>
+  <rect class="grid-cell" x="392.8" y="56.0" width="10.5" height="10.5" rx="2.2" fill="#26a641" style="animation-delay: 0.338s;"><title>10 contributions on March 8th.</title></rect>
+  <rect class="grid-cell" x="392.8" y="69.7" width="10.5" height="10.5" rx="2.2" fill="#26a641" style="animation-delay: 0.358s;"><title>10 contributions on March 9th.</title></rect>
+  <rect class="grid-cell" x="392.8" y="83.4" width="10.5" height="10.5" rx="2.2" fill="#26a641" style="animation-delay: 0.378s;"><title>10 contributions on March 10th.</title></rect>
+  <rect class="grid-cell" x="392.8" y="97.1" width="10.5" height="10.5" rx="2.2" fill="#26a641" style="animation-delay: 0.398s;"><title>10 contributions on March 11th.</title></rect>
+  <rect class="grid-cell" x="392.8" y="110.8" width="10.5" height="10.5" rx="2.2" fill="#26a641" style="animation-delay: 0.418s;"><title>10 contributions on March 12th.</title></rect>
+  <rect class="grid-cell" x="392.8" y="124.5" width="10.5" height="10.5" rx="2.2" fill="#26a641" style="animation-delay: 0.438s;"><title>10 contributions on March 13th.</title></rect>
+  <rect class="grid-cell" x="392.8" y="138.2" width="10.5" height="10.5" rx="2.2" fill="#26a641" style="animation-delay: 0.458s;"><title>10 contributions on March 14th.</title></rect>
+  <rect class="grid-cell" x="406.5" y="56.0" width="10.5" height="10.5" rx="2.2" fill="#26a641" style="animation-delay: 0.350s;"><title>10 contributions on March 15th.</title></rect>
+  <rect class="grid-cell" x="406.5" y="69.7" width="10.5" height="10.5" rx="2.2" fill="#26a641" style="animation-delay: 0.370s;"><title>10 contributions on March 16th.</title></rect>
+  <rect class="grid-cell" x="406.5" y="83.4" width="10.5" height="10.5" rx="2.2" fill="#26a641" style="animation-delay: 0.390s;"><title>10 contributions on March 17th.</title></rect>
+  <rect class="grid-cell" x="406.5" y="97.1" width="10.5" height="10.5" rx="2.2" fill="#26a641" style="animation-delay: 0.410s;"><title>10 contributions on March 18th.</title></rect>
+  <rect class="grid-cell" x="406.5" y="110.8" width="10.5" height="10.5" rx="2.2" fill="#26a641" style="animation-delay: 0.430s;"><title>10 contributions on March 19th.</title></rect>
+  <rect class="grid-cell" x="406.5" y="124.5" width="10.5" height="10.5" rx="2.2" fill="#26a641" style="animation-delay: 0.450s;"><title>10 contributions on March 20th.</title></rect>
+  <rect class="grid-cell" x="406.5" y="138.2" width="10.5" height="10.5" rx="2.2" fill="#26a641" style="animation-delay: 0.470s;"><title>10 contributions on March 21st.</title></rect>
+  <rect class="grid-cell" x="420.2" y="56.0" width="10.5" height="10.5" rx="2.2" fill="#26a641" style="animation-delay: 0.362s;"><title>10 contributions on March 22nd.</title></rect>
+  <rect class="grid-cell" x="420.2" y="69.7" width="10.5" height="10.5" rx="2.2" fill="#26a641" style="animation-delay: 0.382s;"><title>10 contributions on March 23rd.</title></rect>
+  <rect class="grid-cell" x="420.2" y="83.4" width="10.5" height="10.5" rx="2.2" fill="#26a641" style="animation-delay: 0.402s;"><title>10 contributions on March 24th.</title></rect>
+  <rect class="grid-cell" x="420.2" y="97.1" width="10.5" height="10.5" rx="2.2" fill="#26a641" style="animation-delay: 0.422s;"><title>10 contributions on March 25th.</title></rect>
+  <rect class="grid-cell" x="420.2" y="110.8" width="10.5" height="10.5" rx="2.2" fill="#26a641" style="animation-delay: 0.442s;"><title>10 contributions on March 26th.</title></rect>
+  <rect class="grid-cell" x="420.2" y="124.5" width="10.5" height="10.5" rx="2.2" fill="#26a641" style="animation-delay: 0.462s;"><title>10 contributions on March 27th.</title></rect>
+  <rect class="grid-cell" x="420.2" y="138.2" width="10.5" height="10.5" rx="2.2" fill="#26a641" style="animation-delay: 0.482s;"><title>10 contributions on March 28th.</title></rect>
+  <rect class="grid-cell" x="433.9" y="56.0" width="10.5" height="10.5" rx="2.2" fill="#26a641" style="animation-delay: 0.374s;"><title>10 contributions on March 29th.</title></rect>
+  <rect class="grid-cell" x="433.9" y="69.7" width="10.5" height="10.5" rx="2.2" fill="#26a641" style="animation-delay: 0.394s;"><title>10 contributions on March 30th.</title></rect>
+  <rect class="grid-cell" x="433.9" y="83.4" width="10.5" height="10.5" rx="2.2" fill="#26a641" style="animation-delay: 0.414s;"><title>10 contributions on March 31st.</title></rect>
+  <rect class="grid-cell" x="433.9" y="97.1" width="10.5" height="10.5" rx="2.2" fill="#26a641" style="animation-delay: 0.434s;"><title>10 contributions on April 1st.</title></rect>
+  <rect class="grid-cell" x="433.9" y="110.8" width="10.5" height="10.5" rx="2.2" fill="#26a641" style="animation-delay: 0.454s;"><title>10 contributions on April 2nd.</title></rect>
+  <rect class="grid-cell" x="433.9" y="124.5" width="10.5" height="10.5" rx="2.2" fill="#26a641" style="animation-delay: 0.474s;"><title>10 contributions on April 3rd.</title></rect>
+  <rect class="grid-cell" x="433.9" y="138.2" width="10.5" height="10.5" rx="2.2" fill="#26a641" style="animation-delay: 0.494s;"><title>10 contributions on April 4th.</title></rect>
+  <rect class="grid-cell" x="447.6" y="56.0" width="10.5" height="10.5" rx="2.2" fill="#26a641" style="animation-delay: 0.386s;"><title>10 contributions on April 5th.</title></rect>
+  <rect class="grid-cell" x="447.6" y="69.7" width="10.5" height="10.5" rx="2.2" fill="#26a641" style="animation-delay: 0.406s;"><title>10 contributions on April 6th.</title></rect>
+  <rect class="grid-cell" x="447.6" y="83.4" width="10.5" height="10.5" rx="2.2" fill="#26a641" style="animation-delay: 0.426s;"><title>10 contributions on April 7th.</title></rect>
+  <rect class="grid-cell" x="447.6" y="97.1" width="10.5" height="10.5" rx="2.2" fill="#26a641" style="animation-delay: 0.446s;"><title>13 contributions on April 8th.</title></rect>
+  <rect class="grid-cell" x="447.6" y="110.8" width="10.5" height="10.5" rx="2.2" fill="#26a641" style="animation-delay: 0.466s;"><title>10 contributions on April 9th.</title></rect>
+  <rect class="grid-cell" x="447.6" y="124.5" width="10.5" height="10.5" rx="2.2" fill="#26a641" style="animation-delay: 0.486s;"><title>12 contributions on April 10th.</title></rect>
+  <rect class="grid-cell" x="447.6" y="138.2" width="10.5" height="10.5" rx="2.2" fill="#26a641" style="animation-delay: 0.506s;"><title>10 contributions on April 11th.</title></rect>
+  <rect class="grid-cell" x="461.3" y="56.0" width="10.5" height="10.5" rx="2.2" fill="#39d353" style="animation-delay: 0.398s;"><title>14 contributions on April 12th.</title></rect>
+  <rect class="grid-cell" x="461.3" y="69.7" width="10.5" height="10.5" rx="2.2" fill="#26a641" style="animation-delay: 0.418s;"><title>10 contributions on April 13th.</title></rect>
+  <rect class="grid-cell" x="461.3" y="83.4" width="10.5" height="10.5" rx="2.2" fill="#26a641" style="animation-delay: 0.438s;"><title>11 contributions on April 14th.</title></rect>
+  <rect class="grid-cell" x="461.3" y="97.1" width="10.5" height="10.5" rx="2.2" fill="#26a641" style="animation-delay: 0.458s;"><title>12 contributions on April 15th.</title></rect>
+  <rect class="grid-cell" x="461.3" y="110.8" width="10.5" height="10.5" rx="2.2" fill="#26a641" style="animation-delay: 0.478s;"><title>10 contributions on April 16th.</title></rect>
+  <rect class="grid-cell" x="461.3" y="124.5" width="10.5" height="10.5" rx="2.2" fill="#26a641" style="animation-delay: 0.498s;"><title>10 contributions on April 17th.</title></rect>
+  <rect class="grid-cell" x="461.3" y="138.2" width="10.5" height="10.5" rx="2.2" fill="#26a641" style="animation-delay: 0.518s;"><title>10 contributions on April 18th.</title></rect>
+  <rect class="grid-cell" x="475.0" y="56.0" width="10.5" height="10.5" rx="2.2" fill="#26a641" style="animation-delay: 0.410s;"><title>13 contributions on April 19th.</title></rect>
+  <rect class="grid-cell" x="475.0" y="69.7" width="10.5" height="10.5" rx="2.2" fill="#69f0a0" style="animation-delay: 0.430s;"><title>18 contributions on April 20th.</title></rect>
+  <rect class="grid-cell" x="475.0" y="83.4" width="10.5" height="10.5" rx="2.2" fill="#26a641" style="animation-delay: 0.450s;"><title>10 contributions on April 21st.</title></rect>
+  <rect class="grid-cell" x="475.0" y="97.1" width="10.5" height="10.5" rx="2.2" fill="#26a641" style="animation-delay: 0.470s;"><title>10 contributions on April 22nd.</title></rect>
+  <rect class="grid-cell" x="475.0" y="110.8" width="10.5" height="10.5" rx="2.2" fill="#26a641" style="animation-delay: 0.490s;"><title>10 contributions on April 23rd.</title></rect>
+  <rect class="grid-cell" x="475.0" y="124.5" width="10.5" height="10.5" rx="2.2" fill="#26a641" style="animation-delay: 0.510s;"><title>10 contributions on April 24th.</title></rect>
+  <rect class="grid-cell" x="475.0" y="138.2" width="10.5" height="10.5" rx="2.2" fill="#26a641" style="animation-delay: 0.530s;"><title>10 contributions on April 25th.</title></rect>
+  <rect class="grid-cell" x="488.7" y="56.0" width="10.5" height="10.5" rx="2.2" fill="#69f0a0" style="animation-delay: 0.422s;"><title>28 contributions on April 26th.</title></rect>
+  <rect class="grid-cell" x="488.7" y="69.7" width="10.5" height="10.5" rx="2.2" fill="#26a641" style="animation-delay: 0.442s;"><title>10 contributions on April 27th.</title></rect>
+  <rect class="grid-cell" x="488.7" y="83.4" width="10.5" height="10.5" rx="2.2" fill="#26a641" style="animation-delay: 0.462s;"><title>10 contributions on April 28th.</title></rect>
+  <rect class="grid-cell" x="488.7" y="97.1" width="10.5" height="10.5" rx="2.2" fill="#26a641" style="animation-delay: 0.482s;"><title>10 contributions on April 29th.</title></rect>
+  <rect class="grid-cell" x="488.7" y="110.8" width="10.5" height="10.5" rx="2.2" fill="#26a641" style="animation-delay: 0.502s;"><title>10 contributions on April 30th.</title></rect>
+  <rect class="grid-cell" x="488.7" y="124.5" width="10.5" height="10.5" rx="2.2" fill="#39d353" style="animation-delay: 0.522s;"><title>14 contributions on May 1st.</title></rect>
+  <rect class="grid-cell" x="488.7" y="138.2" width="10.5" height="10.5" rx="2.2" fill="#26a641" style="animation-delay: 0.542s;"><title>10 contributions on May 2nd.</title></rect>
+  <rect class="grid-cell" x="502.4" y="56.0" width="10.5" height="10.5" rx="2.2" fill="#26a641" style="animation-delay: 0.434s;"><title>10 contributions on May 3rd.</title></rect>
+  <rect class="grid-cell" x="502.4" y="69.7" width="10.5" height="10.5" rx="2.2" fill="#26a641" style="animation-delay: 0.454s;"><title>10 contributions on May 4th.</title></rect>
+  <rect class="grid-cell" x="502.4" y="83.4" width="10.5" height="10.5" rx="2.2" fill="#26a641" style="animation-delay: 0.474s;"><title>10 contributions on May 5th.</title></rect>
+  <rect class="grid-cell" x="502.4" y="97.1" width="10.5" height="10.5" rx="2.2" fill="#26a641" style="animation-delay: 0.494s;"><title>10 contributions on May 6th.</title></rect>
+  <rect class="grid-cell" x="502.4" y="110.8" width="10.5" height="10.5" rx="2.2" fill="#26a641" style="animation-delay: 0.514s;"><title>10 contributions on May 7th.</title></rect>
+  <rect class="grid-cell" x="502.4" y="124.5" width="10.5" height="10.5" rx="2.2" fill="#26a641" style="animation-delay: 0.534s;"><title>10 contributions on May 8th.</title></rect>
+  <rect class="grid-cell" x="502.4" y="138.2" width="10.5" height="10.5" rx="2.2" fill="#26a641" style="animation-delay: 0.554s;"><title>10 contributions on May 9th.</title></rect>
+  <rect class="grid-cell" x="516.1" y="56.0" width="10.5" height="10.5" rx="2.2" fill="#26a641" style="animation-delay: 0.446s;"><title>10 contributions on May 10th.</title></rect>
+  <rect class="grid-cell" x="516.1" y="69.7" width="10.5" height="10.5" rx="2.2" fill="#26a641" style="animation-delay: 0.466s;"><title>10 contributions on May 11th.</title></rect>
+  <rect class="grid-cell" x="516.1" y="83.4" width="10.5" height="10.5" rx="2.2" fill="#26a641" style="animation-delay: 0.486s;"><title>10 contributions on May 12th.</title></rect>
+  <rect class="grid-cell" x="516.1" y="97.1" width="10.5" height="10.5" rx="2.2" fill="#26a641" style="animation-delay: 0.506s;"><title>10 contributions on May 13th.</title></rect>
+  <rect class="grid-cell" x="516.1" y="110.8" width="10.5" height="10.5" rx="2.2" fill="#26a641" style="animation-delay: 0.526s;"><title>10 contributions on May 14th.</title></rect>
+  <rect class="grid-cell" x="516.1" y="124.5" width="10.5" height="10.5" rx="2.2" fill="#26a641" style="animation-delay: 0.546s;"><title>11 contributions on May 15th.</title></rect>
+  <rect class="grid-cell" x="516.1" y="138.2" width="10.5" height="10.5" rx="2.2" fill="#26a641" style="animation-delay: 0.566s;"><title>10 contributions on May 16th.</title></rect>
+  <rect class="grid-cell" x="529.8" y="56.0" width="10.5" height="10.5" rx="2.2" fill="#26a641" style="animation-delay: 0.458s;"><title>10 contributions on May 17th.</title></rect>
+  <rect class="grid-cell" x="529.8" y="69.7" width="10.5" height="10.5" rx="2.2" fill="#26a641" style="animation-delay: 0.478s;"><title>10 contributions on May 18th.</title></rect>
+  <rect class="grid-cell" x="529.8" y="83.4" width="10.5" height="10.5" rx="2.2" fill="#26a641" style="animation-delay: 0.498s;"><title>10 contributions on May 19th.</title></rect>
+  <rect class="grid-cell" x="529.8" y="97.1" width="10.5" height="10.5" rx="2.2" fill="#26a641" style="animation-delay: 0.518s;"><title>10 contributions on May 20th.</title></rect>
+  <rect class="grid-cell" x="529.8" y="110.8" width="10.5" height="10.5" rx="2.2" fill="#26a641" style="animation-delay: 0.538s;"><title>11 contributions on May 21st.</title></rect>
+  <rect class="grid-cell" x="529.8" y="124.5" width="10.5" height="10.5" rx="2.2" fill="#26a641" style="animation-delay: 0.558s;"><title>10 contributions on May 22nd.</title></rect>
+  <rect class="grid-cell" x="529.8" y="138.2" width="10.5" height="10.5" rx="2.2" fill="#26a641" style="animation-delay: 0.578s;"><title>10 contributions on May 23rd.</title></rect>
+  <rect class="grid-cell" x="543.5" y="56.0" width="10.5" height="10.5" rx="2.2" fill="#26a641" style="animation-delay: 0.470s;"><title>10 contributions on May 24th.</title></rect>
+  <rect class="grid-cell" x="543.5" y="69.7" width="10.5" height="10.5" rx="2.2" fill="#26a641" style="animation-delay: 0.490s;"><title>10 contributions on May 25th.</title></rect>
+  <rect class="grid-cell" x="543.5" y="83.4" width="10.5" height="10.5" rx="2.2" fill="#26a641" style="animation-delay: 0.510s;"><title>10 contributions on May 26th.</title></rect>
+  <rect class="grid-cell" x="543.5" y="97.1" width="10.5" height="10.5" rx="2.2" fill="#26a641" style="animation-delay: 0.530s;"><title>10 contributions on May 27th.</title></rect>
+  <rect class="grid-cell" x="543.5" y="110.8" width="10.5" height="10.5" rx="2.2" fill="#26a641" style="animation-delay: 0.550s;"><title>11 contributions on May 28th.</title></rect>
+  <rect class="grid-cell" x="543.5" y="124.5" width="10.5" height="10.5" rx="2.2" fill="#26a641" style="animation-delay: 0.570s;"><title>10 contributions on May 29th.</title></rect>
+  <rect class="grid-cell" x="543.5" y="138.2" width="10.5" height="10.5" rx="2.2" fill="#26a641" style="animation-delay: 0.590s;"><title>10 contributions on May 30th.</title></rect>
+  <rect class="grid-cell" x="557.2" y="56.0" width="10.5" height="10.5" rx="2.2" fill="#26a641" style="animation-delay: 0.482s;"><title>10 contributions on May 31st.</title></rect>
+  <rect class="grid-cell" x="557.2" y="69.7" width="10.5" height="10.5" rx="2.2" fill="#26a641" style="animation-delay: 0.502s;"><title>10 contributions on June 1st.</title></rect>
+  <rect class="grid-cell" x="557.2" y="83.4" width="10.5" height="10.5" rx="2.2" fill="#26a641" style="animation-delay: 0.522s;"><title>10 contributions on June 2nd.</title></rect>
+  <rect class="grid-cell" x="557.2" y="97.1" width="10.5" height="10.5" rx="2.2" fill="#26a641" style="animation-delay: 0.542s;"><title>10 contributions on June 3rd.</title></rect>
+  <rect class="grid-cell" x="557.2" y="110.8" width="10.5" height="10.5" rx="2.2" fill="#26a641" style="animation-delay: 0.562s;"><title>10 contributions on June 4th.</title></rect>
+  <rect class="grid-cell" x="557.2" y="124.5" width="10.5" height="10.5" rx="2.2" fill="#69f0a0" style="animation-delay: 0.582s;"><title>18 contributions on June 5th.</title></rect>
+  <rect class="grid-cell" x="557.2" y="138.2" width="10.5" height="10.5" rx="2.2" fill="#26a641" style="animation-delay: 0.602s;"><title>10 contributions on June 6th.</title></rect>
+  <rect class="grid-cell" x="570.9" y="56.0" width="10.5" height="10.5" rx="2.2" fill="#26a641" style="animation-delay: 0.494s;"><title>10 contributions on June 7th.</title></rect>
+  <rect class="grid-cell" x="570.9" y="69.7" width="10.5" height="10.5" rx="2.2" fill="#26a641" style="animation-delay: 0.514s;"><title>10 contributions on June 8th.</title></rect>
+  <rect class="grid-cell" x="570.9" y="83.4" width="10.5" height="10.5" rx="2.2" fill="#26a641" style="animation-delay: 0.534s;"><title>10 contributions on June 9th.</title></rect>
+  <rect class="grid-cell" x="570.9" y="97.1" width="10.5" height="10.5" rx="2.2" fill="#26a641" style="animation-delay: 0.554s;"><title>10 contributions on June 10th.</title></rect>
+  <rect class="grid-cell" x="570.9" y="110.8" width="10.5" height="10.5" rx="2.2" fill="#26a641" style="animation-delay: 0.574s;"><title>10 contributions on June 11th.</title></rect>
+  <rect class="grid-cell" x="570.9" y="124.5" width="10.5" height="10.5" rx="2.2" fill="#26a641" style="animation-delay: 0.594s;"><title>10 contributions on June 12th.</title></rect>
+  <rect class="grid-cell" x="570.9" y="138.2" width="10.5" height="10.5" rx="2.2" fill="#26a641" style="animation-delay: 0.614s;"><title>10 contributions on June 13th.</title></rect>
+  <rect class="grid-cell" x="584.6" y="56.0" width="10.5" height="10.5" rx="2.2" fill="#26a641" style="animation-delay: 0.506s;"><title>10 contributions on June 14th.</title></rect>
+  <rect class="grid-cell" x="584.6" y="69.7" width="10.5" height="10.5" rx="2.2" fill="#26a641" style="animation-delay: 0.526s;"><title>10 contributions on June 15th.</title></rect>
+  <rect class="grid-cell" x="584.6" y="83.4" width="10.5" height="10.5" rx="2.2" fill="#26a641" style="animation-delay: 0.546s;"><title>10 contributions on June 16th.</title></rect>
+  <rect class="grid-cell" x="584.6" y="97.1" width="10.5" height="10.5" rx="2.2" fill="#26a641" style="animation-delay: 0.566s;"><title>10 contributions on June 17th.</title></rect>
+  <rect class="grid-cell" x="584.6" y="110.8" width="10.5" height="10.5" rx="2.2" fill="#26a641" style="animation-delay: 0.586s;"><title>10 contributions on June 18th.</title></rect>
+  <rect class="grid-cell" x="584.6" y="124.5" width="10.5" height="10.5" rx="2.2" fill="#26a641" style="animation-delay: 0.606s;"><title>10 contributions on June 19th.</title></rect>
+  <rect class="grid-cell" x="584.6" y="138.2" width="10.5" height="10.5" rx="2.2" fill="#26a641" style="animation-delay: 0.626s;"><title>10 contributions on June 20th.</title></rect>
+  <rect class="grid-cell" x="598.3" y="56.0" width="10.5" height="10.5" rx="2.2" fill="#26a641" style="animation-delay: 0.518s;"><title>13 contributions on June 21st.</title></rect>
+  <rect class="grid-cell" x="598.3" y="69.7" width="10.5" height="10.5" rx="2.2" fill="#26a641" style="animation-delay: 0.538s;"><title>10 contributions on June 22nd.</title></rect>
+  <rect class="grid-cell" x="598.3" y="83.4" width="10.5" height="10.5" rx="2.2" fill="#26a641" style="animation-delay: 0.558s;"><title>10 contributions on June 23rd.</title></rect>
+  <rect class="grid-cell" x="598.3" y="97.1" width="10.5" height="10.5" rx="2.2" fill="#26a641" style="animation-delay: 0.578s;"><title>10 contributions on June 24th.</title></rect>
+  <rect class="grid-cell" x="598.3" y="110.8" width="10.5" height="10.5" rx="2.2" fill="#26a641" style="animation-delay: 0.598s;"><title>10 contributions on June 25th.</title></rect>
+  <rect class="grid-cell" x="598.3" y="124.5" width="10.5" height="10.5" rx="2.2" fill="#26a641" style="animation-delay: 0.618s;"><title>10 contributions on June 26th.</title></rect>
+  <rect class="grid-cell" x="598.3" y="138.2" width="10.5" height="10.5" rx="2.2" fill="#26a641" style="animation-delay: 0.638s;"><title>10 contributions on June 27th.</title></rect>
+  <rect class="grid-cell" x="612.0" y="56.0" width="10.5" height="10.5" rx="2.2" fill="#26a641" style="animation-delay: 0.530s;"><title>10 contributions on June 28th.</title></rect>
+  <rect class="grid-cell" x="612.0" y="69.7" width="10.5" height="10.5" rx="2.2" fill="#26a641" style="animation-delay: 0.550s;"><title>10 contributions on June 29th.</title></rect>
+  <rect class="grid-cell" x="612.0" y="83.4" width="10.5" height="10.5" rx="2.2" fill="#26a641" style="animation-delay: 0.570s;"><title>10 contributions on June 30th.</title></rect>
+  <rect class="grid-cell" x="612.0" y="97.1" width="10.5" height="10.5" rx="2.2" fill="#26a641" style="animation-delay: 0.590s;"><title>10 contributions on July 1st.</title></rect>
+  <rect class="grid-cell" x="612.0" y="110.8" width="10.5" height="10.5" rx="2.2" fill="#26a641" style="animation-delay: 0.610s;"><title>10 contributions on July 2nd.</title></rect>
+  <rect class="grid-cell" x="612.0" y="124.5" width="10.5" height="10.5" rx="2.2" fill="#26a641" style="animation-delay: 0.630s;"><title>10 contributions on July 3rd.</title></rect>
+  <rect class="grid-cell" x="612.0" y="138.2" width="10.5" height="10.5" rx="2.2" fill="#26a641" style="animation-delay: 0.650s;"><title>10 contributions on July 4th.</title></rect>
+  <rect class="grid-cell" x="625.7" y="56.0" width="10.5" height="10.5" rx="2.2" fill="#26a641" style="animation-delay: 0.542s;"><title>10 contributions on July 5th.</title></rect>
+  <rect class="grid-cell" x="625.7" y="69.7" width="10.5" height="10.5" rx="2.2" fill="#26a641" style="animation-delay: 0.562s;"><title>10 contributions on July 6th.</title></rect>
+  <rect class="grid-cell" x="625.7" y="83.4" width="10.5" height="10.5" rx="2.2" fill="#26a641" style="animation-delay: 0.582s;"><title>10 contributions on July 7th.</title></rect>
+  <rect class="grid-cell" x="625.7" y="97.1" width="10.5" height="10.5" rx="2.2" fill="#26a641" style="animation-delay: 0.602s;"><title>10 contributions on July 8th.</title></rect>
+  <rect class="grid-cell" x="625.7" y="110.8" width="10.5" height="10.5" rx="2.2" fill="#26a641" style="animation-delay: 0.622s;"><title>10 contributions on July 9th.</title></rect>
+  <rect class="grid-cell" x="625.7" y="124.5" width="10.5" height="10.5" rx="2.2" fill="#26a641" style="animation-delay: 0.642s;"><title>10 contributions on July 10th.</title></rect>
+  <rect class="grid-cell" x="625.7" y="138.2" width="10.5" height="10.5" rx="2.2" fill="#26a641" style="animation-delay: 0.662s;"><title>10 contributions on July 11th.</title></rect>
+  <rect class="grid-cell" x="639.4" y="56.0" width="10.5" height="10.5" rx="2.2" fill="#26a641" style="animation-delay: 0.554s;"><title>10 contributions on July 12th.</title></rect>
+  <rect class="grid-cell" x="639.4" y="69.7" width="10.5" height="10.5" rx="2.2" fill="#26a641" style="animation-delay: 0.574s;"><title>10 contributions on July 13th.</title></rect>
+  <rect class="grid-cell" x="639.4" y="83.4" width="10.5" height="10.5" rx="2.2" fill="#26a641" style="animation-delay: 0.594s;"><title>10 contributions on July 14th.</title></rect>
+  <rect class="grid-cell" x="639.4" y="97.1" width="10.5" height="10.5" rx="2.2" fill="#26a641" style="animation-delay: 0.614s;"><title>10 contributions on July 15th.</title></rect>
+  <rect class="grid-cell" x="639.4" y="110.8" width="10.5" height="10.5" rx="2.2" fill="#26a641" style="animation-delay: 0.634s;"><title>10 contributions on July 16th.</title></rect>
+  <rect class="grid-cell" x="639.4" y="124.5" width="10.5" height="10.5" rx="2.2" fill="#26a641" style="animation-delay: 0.654s;"><title>10 contributions on July 17th.</title></rect>
+  <rect class="grid-cell" x="639.4" y="138.2" width="10.5" height="10.5" rx="2.2" fill="#26a641" style="animation-delay: 0.674s;"><title>10 contributions on July 18th.</title></rect>
+  <rect class="grid-cell" x="653.1" y="56.0" width="10.5" height="10.5" rx="2.2" fill="#26a641" style="animation-delay: 0.566s;"><title>10 contributions on July 19th.</title></rect>
+  <rect class="grid-cell" x="653.1" y="69.7" width="10.5" height="10.5" rx="2.2" fill="#26a641" style="animation-delay: 0.586s;"><title>10 contributions on July 20th.</title></rect>
+  <rect class="grid-cell" x="653.1" y="83.4" width="10.5" height="10.5" rx="2.2" fill="#26a641" style="animation-delay: 0.606s;"><title>10 contributions on July 21st.</title></rect>
+  <rect class="grid-cell" x="653.1" y="97.1" width="10.5" height="10.5" rx="2.2" fill="#26a641" style="animation-delay: 0.626s;"><title>10 contributions on July 22nd.</title></rect>
+  <rect class="grid-cell" x="653.1" y="110.8" width="10.5" height="10.5" rx="2.2" fill="#26a641" style="animation-delay: 0.646s;"><title>10 contributions on July 23rd.</title></rect>
+  <rect class="grid-cell" x="653.1" y="124.5" width="10.5" height="10.5" rx="2.2" fill="#26a641" style="animation-delay: 0.666s;"><title>10 contributions on July 24th.</title></rect>
+  <rect class="grid-cell" x="653.1" y="138.2" width="10.5" height="10.5" rx="2.2" fill="#26a641" style="animation-delay: 0.686s;"><title>10 contributions on July 25th.</title></rect>
+  <rect class="grid-cell" x="666.8" y="56.0" width="10.5" height="10.5" rx="2.2" fill="#26a641" style="animation-delay: 0.578s;"><title>10 contributions on July 26th.</title></rect>
+  <rect class="grid-cell" x="666.8" y="69.7" width="10.5" height="10.5" rx="2.2" fill="#26a641" style="animation-delay: 0.598s;"><title>10 contributions on July 27th.</title></rect>
+  <rect class="grid-cell" x="666.8" y="83.4" width="10.5" height="10.5" rx="2.2" fill="#26a641" style="animation-delay: 0.618s;"><title>10 contributions on July 28th.</title></rect>
+  <rect class="grid-cell" x="666.8" y="97.1" width="10.5" height="10.5" rx="2.2" fill="#26a641" style="animation-delay: 0.638s;"><title>10 contributions on July 29th.</title></rect>
+  <rect class="grid-cell" x="666.8" y="110.8" width="10.5" height="10.5" rx="2.2" fill="#26a641" style="animation-delay: 0.658s;"><title>10 contributions on July 30th.</title></rect>
+  <rect class="grid-cell" x="666.8" y="124.5" width="10.5" height="10.5" rx="2.2" fill="#26a641" style="animation-delay: 0.678s;"><title>10 contributions on July 31st.</title></rect>
+  <rect class="grid-cell" x="666.8" y="138.2" width="10.5" height="10.5" rx="2.2" fill="#26a641" style="animation-delay: 0.698s;"><title>10 contributions on August 1st.</title></rect>
+  <rect class="grid-cell" x="680.5" y="56.0" width="10.5" height="10.5" rx="2.2" fill="#26a641" style="animation-delay: 0.590s;"><title>10 contributions on August 2nd.</title></rect>
+  <rect class="grid-cell" x="680.5" y="69.7" width="10.5" height="10.5" rx="2.2" fill="#26a641" style="animation-delay: 0.610s;"><title>10 contributions on August 3rd.</title></rect>
+  <rect class="grid-cell" x="680.5" y="83.4" width="10.5" height="10.5" rx="2.2" fill="#26a641" style="animation-delay: 0.630s;"><title>10 contributions on August 4th.</title></rect>
+  <rect class="grid-cell" x="680.5" y="97.1" width="10.5" height="10.5" rx="2.2" fill="#26a641" style="animation-delay: 0.650s;"><title>10 contributions on August 5th.</title></rect>
+  <rect class="grid-cell" x="680.5" y="110.8" width="10.5" height="10.5" rx="2.2" fill="#26a641" style="animation-delay: 0.670s;"><title>10 contributions on August 6th.</title></rect>
+  <rect class="grid-cell" x="680.5" y="124.5" width="10.5" height="10.5" rx="2.2" fill="#26a641" style="animation-delay: 0.690s;"><title>10 contributions on August 7th.</title></rect>
+  <rect class="grid-cell" x="680.5" y="138.2" width="10.5" height="10.5" rx="2.2" fill="#0e4429" style="animation-delay: 0.710s;"><title>1 contribution on August 8th.</title></rect>
+  <rect class="grid-cell" x="694.2" y="56.0" width="10.5" height="10.5" rx="2.2" fill="#0e4429" style="animation-delay: 0.602s;"><title>3 contributions on August 9th.</title></rect>
+  <rect class="grid-cell" x="694.2" y="69.7" width="10.5" height="10.5" rx="2.2" fill="#0e4429" style="animation-delay: 0.622s;"><title>2 contributions on August 10th.</title></rect>
+  <rect class="grid-cell" x="694.2" y="83.4" width="10.5" height="10.5" rx="2.2" fill="#161b22" style="animation-delay: 0.642s;"><title>No contributions on August 11th.</title></rect>
+  <rect class="grid-cell" x="694.2" y="97.1" width="10.5" height="10.5" rx="2.2" fill="#0e4429" style="animation-delay: 0.662s;"><title>1 contribution on August 12th.</title></rect>
+  <rect class="grid-cell" x="694.2" y="110.8" width="10.5" height="10.5" rx="2.2" fill="#161b22" style="animation-delay: 0.682s;"><title>No contributions on August 13th.</title></rect>
+  <rect class="grid-cell" x="694.2" y="124.5" width="10.5" height="10.5" rx="2.2" fill="#161b22" style="animation-delay: 0.702s;"><title>No contributions on August 14th.</title></rect>
+  <rect class="grid-cell" x="694.2" y="138.2" width="10.5" height="10.5" rx="2.2" fill="#161b22" style="animation-delay: 0.722s;"><title>No contributions on August 15th.</title></rect>
+  <rect class="grid-cell" x="707.9" y="56.0" width="10.5" height="10.5" rx="2.2" fill="#161b22" style="animation-delay: 0.614s;"><title>No contributions on August 16th.</title></rect>
+  <rect class="grid-cell" x="707.9" y="69.7" width="10.5" height="10.5" rx="2.2" fill="#161b22" style="animation-delay: 0.634s;"><title>No contributions on August 17th.</title></rect>
+  <rect class="grid-cell" x="707.9" y="83.4" width="10.5" height="10.5" rx="2.2" fill="#161b22" style="animation-delay: 0.654s;"><title>No contributions on August 18th.</title></rect>
+  <rect class="grid-cell" x="707.9" y="97.1" width="10.5" height="10.5" rx="2.2" fill="#161b22" style="animation-delay: 0.674s;"><title>No contributions on August 19th.</title></rect>
+  <rect class="grid-cell" x="707.9" y="110.8" width="10.5" height="10.5" rx="2.2" fill="#161b22" style="animation-delay: 0.694s;"><title>No contributions on August 20th.</title></rect>
+  <rect class="grid-cell" x="707.9" y="124.5" width="10.5" height="10.5" rx="2.2" fill="#161b22" style="animation-delay: 0.714s;"><title>No contributions on August 21st.</title></rect>
+  <rect class="grid-cell" x="707.9" y="138.2" width="10.5" height="10.5" rx="2.2" fill="#006d32" style="animation-delay: 0.734s;"><title>8 contributions on August 22nd.</title></rect>
+  <rect class="grid-cell" x="721.6" y="56.0" width="10.5" height="10.5" rx="2.2" fill="#0e4429" style="animation-delay: 0.626s;"><title>4 contributions on August 23rd.</title></rect>
+  <rect class="grid-cell" x="721.6" y="69.7" width="10.5" height="10.5" rx="2.2" fill="#161b22" style="animation-delay: 0.646s;"><title>No contributions on August 24th.</title></rect>
+  <rect class="grid-cell" x="721.6" y="83.4" width="10.5" height="10.5" rx="2.2" fill="#161b22" style="animation-delay: 0.666s;"><title>No contributions on August 25th.</title></rect>
+  <rect class="grid-cell" x="721.6" y="97.1" width="10.5" height="10.5" rx="2.2" fill="#161b22" style="animation-delay: 0.686s;"><title>No contributions on August 26th.</title></rect>
+  <rect class="grid-cell" x="721.6" y="110.8" width="10.5" height="10.5" rx="2.2" fill="#161b22" style="animation-delay: 0.706s;"><title>No contributions on August 27th.</title></rect>
+  <rect class="grid-cell" x="721.6" y="124.5" width="10.5" height="10.5" rx="2.2" fill="#161b22" style="animation-delay: 0.726s;"><title>No contributions on August 28th.</title></rect>
+  <rect class="grid-cell" x="721.6" y="138.2" width="10.5" height="10.5" rx="2.2" fill="#161b22" style="animation-delay: 0.746s;"><title>No contributions on August 29th.</title></rect>
+  <rect class="grid-cell" x="735.3" y="56.0" width="10.5" height="10.5" rx="2.2" fill="#161b22" style="animation-delay: 0.638s;"><title>No contributions on August 30th.</title></rect>
+  <rect class="grid-cell" x="735.3" y="69.7" width="10.5" height="10.5" rx="2.2" fill="#161b22" style="animation-delay: 0.658s;"><title>No contributions on August 31st.</title></rect>
+  <rect class="grid-cell" x="735.3" y="83.4" width="10.5" height="10.5" rx="2.2" fill="#161b22" style="animation-delay: 0.678s;"><title>No contributions on September 1st.</title></rect>
+  <rect class="grid-cell" x="735.3" y="97.1" width="10.5" height="10.5" rx="2.2" fill="#161b22" style="animation-delay: 0.698s;"><title>No contributions on September 2nd.</title></rect>
+  <rect class="grid-cell" x="735.3" y="110.8" width="10.5" height="10.5" rx="2.2" fill="#161b22" style="animation-delay: 0.718s;"><title>No contributions on September 3rd.</title></rect>
+  <rect class="grid-cell" x="735.3" y="124.5" width="10.5" height="10.5" rx="2.2" fill="#161b22" style="animation-delay: 0.738s;"><title>No contributions on September 4th.</title></rect>
+  <rect class="grid-cell" x="735.3" y="138.2" width="10.5" height="10.5" rx="2.2" fill="#161b22" style="animation-delay: 0.758s;"><title>No contributions on September 5th.</title></rect>
+  <rect class="grid-cell" x="749.0" y="56.0" width="10.5" height="10.5" rx="2.2" fill="#161b22" style="animation-delay: 0.650s;"><title>No contributions on September 6th.</title></rect>
+  <rect class="grid-cell" x="749.0" y="69.7" width="10.5" height="10.5" rx="2.2" fill="#161b22" style="animation-delay: 0.670s;"><title>No contributions on September 7th.</title></rect>
+  <rect class="grid-cell" x="749.0" y="83.4" width="10.5" height="10.5" rx="2.2" fill="#161b22" style="animation-delay: 0.690s;"><title>No contributions on September 8th.</title></rect>
+  <rect class="grid-cell" x="749.0" y="97.1" width="10.5" height="10.5" rx="2.2" fill="#161b22" style="animation-delay: 0.710s;"><title>No contributions on September 9th.</title></rect>
+  <rect class="grid-cell" x="749.0" y="110.8" width="10.5" height="10.5" rx="2.2" fill="#161b22" style="animation-delay: 0.730s;"><title>No contributions on September 10th.</title></rect>
+  <rect class="grid-cell" x="749.0" y="124.5" width="10.5" height="10.5" rx="2.2" fill="#161b22" style="animation-delay: 0.750s;"><title>No contributions on September 11th.</title></rect>
+  <rect class="grid-cell" x="749.0" y="138.2" width="10.5" height="10.5" rx="2.2" fill="#161b22" style="animation-delay: 0.770s;"><title>No contributions on September 12th.</title></rect>
+  <rect class="grid-cell" x="762.7" y="56.0" width="10.5" height="10.5" rx="2.2" fill="#161b22" style="animation-delay: 0.662s;"><title>No contributions on September 13th.</title></rect>
+  <rect class="grid-cell" x="762.7" y="69.7" width="10.5" height="10.5" rx="2.2" fill="#161b22" style="animation-delay: 0.682s;"><title>No contributions on September 14th.</title></rect>
+  <rect class="grid-cell" x="762.7" y="83.4" width="10.5" height="10.5" rx="2.2" fill="#161b22" style="animation-delay: 0.702s;"><title>No contributions on September 15th.</title></rect>
+  <rect class="grid-cell" x="762.7" y="97.1" width="10.5" height="10.5" rx="2.2" fill="#161b22" style="animation-delay: 0.722s;"><title>No contributions on September 16th.</title></rect>
+  <rect class="grid-cell" x="762.7" y="110.8" width="10.5" height="10.5" rx="2.2" fill="#161b22" style="animation-delay: 0.742s;"><title>No contributions on September 17th.</title></rect>
+  <rect class="grid-cell" x="762.7" y="124.5" width="10.5" height="10.5" rx="2.2" fill="#0e4429" style="animation-delay: 0.762s;"><title>2 contributions on September 18th.</title></rect>
+  <rect class="grid-cell" x="762.7" y="138.2" width="10.5" height="10.5" rx="2.2" fill="#0e4429" style="animation-delay: 0.782s;"><title>4 contributions on September 19th.</title></rect>
+  <rect class="grid-cell" x="776.4" y="56.0" width="10.5" height="10.5" rx="2.2" fill="#0e4429" style="animation-delay: 0.674s;"><title>2 contributions on September 20th.</title></rect>
+  <rect class="grid-cell" x="776.4" y="69.7" width="10.5" height="10.5" rx="2.2" fill="#006d32" style="animation-delay: 0.694s;"><title>5 contributions on September 21st.</title></rect>
+  <rect class="grid-cell" x="776.4" y="83.4" width="10.5" height="10.5" rx="2.2" fill="#006d32" style="animation-delay: 0.714s;"><title>5 contributions on September 22nd.</title></rect>
+  <rect class="grid-cell" x="776.4" y="97.1" width="10.5" height="10.5" rx="2.2" fill="#161b22" style="animation-delay: 0.734s;"><title>No contributions on September 23rd.</title></rect>
+  <rect class="grid-cell" x="776.4" y="110.8" width="10.5" height="10.5" rx="2.2" fill="#0e4429" style="animation-delay: 0.754s;"><title>2 contributions on September 24th.</title></rect>
+  <rect class="grid-cell" x="776.4" y="124.5" width="10.5" height="10.5" rx="2.2" fill="#161b22" style="animation-delay: 0.774s;"><title>No contributions on September 25th.</title></rect>
+  <!-- Footer Stats & Legend -->
+  <text class="mono footer-stat" x="64" y="180"><tspan class="accent">2,711</tspan> contributions in the last year &nbsp;·&nbsp; Current streak: <tspan class="accent">1d</tspan> &nbsp;·&nbsp; Longest streak: <tspan class="accent">324d</tspan></text>
+  <text class="mono label" x="690" y="180">Less</text>
+  <rect x="716" y="173" width="9.5" height="9.5" rx="2" fill="#161b22"/>
+  <rect x="729" y="173" width="9.5" height="9.5" rx="2" fill="#0e4429"/>
+  <rect x="742" y="173" width="9.5" height="9.5" rx="2" fill="#006d32"/>
+  <rect x="755" y="173" width="9.5" height="9.5" rx="2" fill="#26a641"/>
+  <rect x="768" y="173" width="9.5" height="9.5" rx="2" fill="#39d353"/>
+  <text class="mono label" x="784" y="180">More</text>
+</svg>
