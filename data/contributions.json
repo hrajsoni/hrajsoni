@@ -1,66 +1,15 @@
 {
   "username": "hrajsoni",
-  "updated_at": "2026-10-10T12:33:01.197684+00:00",
-  "total_contributions": 2672,
-  "active_days": 334,
-  "longest_streak": 310,
-  "current_streak": 16,
+  "updated_at": "2026-10-11T12:51:24.693927+00:00",
+  "total_contributions": 2638,
+  "active_days": 328,
+  "longest_streak": 303,
+  "current_streak": 17,
   "best_day": {
     "date": "2026-04-26",
     "count": 28
   },
   "weeks": [
-    [
-      {
-        "date": "2025-10-05",
-        "count": 5,
-        "level": 2,
-        "weekday": 0,
-        "description": "5 contributions on October 5th."
-      },
-      {
-        "date": "2025-10-06",
-        "count": 5,
-        "level": 2,
-        "weekday": 1,
-        "description": "5 contributions on October 6th."
-      },
-      {
-        "date": "2025-10-07",
-        "count": 5,
-        "level": 2,
-        "weekday": 2,
-        "description": "5 contributions on October 7th."
-      },
-      {
-        "date": "2025-10-08",
-        "count": 5,
-        "level": 2,
-        "weekday": 3,
-        "description": "5 contributions on October 8th."
-      },
-      {
-        "date": "2025-10-09",
-        "count": 5,
-        "level": 2,
-        "weekday": 4,
-        "description": "5 contributions on October 9th."
-      },
-      {
-        "date": "2025-10-10",
-        "count": 5,
-        "level": 2,
-        "weekday": 5,
-        "description": "5 contributions on October 10th."
-      },
-      {
-        "date": "2025-10-11",
-        "count": 5,
-        "level": 2,
-        "weekday": 6,
-        "description": "5 contributions on October 11th."
-      }
-    ],
     [
       {
         "date": "2025-10-12",
@@ -2707,11 +2656,26 @@
       },
       {
         "date": "2026-10-10",
+        "count": 1,
+        "level": 1,
+        "weekday": 6,
+        "description": "1 contribution on October 10th."
+      }
+    ],
+    [
+      {
+        "date": "2026-10-11",
         "count": 0,
         "level": 0,
-        "weekday": 6,
-        "description": "No contributions on October 10th."
-      }
+        "weekday": 0,
+        "description": "No contributions on October 11th."
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
     ]
   ],
   "month_labels": [
@@ -2721,103 +2685,54 @@
     },
     {
       "name": "Nov",
-      "col": 4
+      "col": 3
     },
     {
       "name": "Dec",
-      "col": 9
+      "col": 8
     },
     {
       "name": "Jan",
-      "col": 13
+      "col": 12
     },
     {
       "name": "Feb",
-      "col": 17
+      "col": 16
     },
     {
       "name": "Mar",
-      "col": 21
+      "col": 20
     },
     {
       "name": "Apr",
-      "col": 26
+      "col": 25
     },
     {
       "name": "May",
-      "col": 30
+      "col": 29
     },
     {
       "name": "Jun",
-      "col": 35
+      "col": 34
     },
     {
       "name": "Jul",
-      "col": 39
+      "col": 38
     },
     {
       "name": "Aug",
-      "col": 43
+      "col": 42
     },
     {
       "name": "Sep",
-      "col": 48
+      "col": 47
     },
     {
       "name": "Oct",
-      "col": 52
+      "col": 51
     }
   ],
   "days": [
-    {
-      "date": "2025-10-05",
-      "count": 5,
-      "level": 2,
-      "weekday": 0,
-      "description": "5 contributions on October 5th."
-    },
-    {
-      "date": "2025-10-06",
-      "count": 5,
-      "level": 2,
-      "weekday": 1,
-      "description": "5 contributions on October 6th."
-    },
-    {
-      "date": "2025-10-07",
-      "count": 5,
-      "level": 2,
-      "weekday": 2,
-      "description": "5 contributions on October 7th."
-    },
-    {
-      "date": "2025-10-08",
-      "count": 5,
-      "level": 2,
-      "weekday": 3,
-      "description": "5 contributions on October 8th."
-    },
-    {
-      "date": "2025-10-09",
-      "count": 5,
-      "level": 2,
-      "weekday": 4,
-      "description": "5 contributions on October 9th."
-    },
-    {
-      "date": "2025-10-10",
-      "count": 5,
-      "level": 2,
-      "weekday": 5,
-      "description": "5 contributions on October 10th."
-    },
-    {
-      "date": "2025-10-11",
-      "count": 5,
-      "level": 2,
-      "weekday": 6,
-      "description": "5 contributions on October 11th."
-    },
     {
       "date": "2025-10-12",
       "count": 5,
@@ -5361,10 +5276,17 @@
     },
     {
       "date": "2026-10-10",
+      "count": 1,
+      "level": 1,
+      "weekday": 6,
+      "description": "1 contribution on October 10th."
+    },
+    {
+      "date": "2026-10-11",
       "count": 0,
       "level": 0,
-      "weekday": 6,
-      "description": "No contributions on October 10th."
+      "weekday": 0,
+      "description": "No contributions on October 11th."
     }
   ]
 }
